@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "幼圆";
+    color: #C20C0C;
+}
+
+body {
+    background-color: #F7E8E9;
+}
+
+.h1 {
+    width: 80%;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #C20C0C;
+    margin-left: 10px;
+}
+
+p {
+    text-indent: 1em;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h2 {
+    width: 86%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #C20C0C;
+}
+
+.img {
+    width: 160px;
+    height: 160px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 20px;
+    border: 2px solid #C20C0C;
+    overflow: hidden;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+}
+
+.return {
+    margin-top: 90px;
+    margin-left: 25px;
+}

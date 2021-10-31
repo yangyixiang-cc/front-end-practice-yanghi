@@ -1,0 +1,144 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: "icomoon";
+}
+.sk_bd {
+    margin-top: 23px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #b1191a;
+}
+.sk_bd ul li .dt {
+    height: 290px;
+    width: 290px;
+    overflow: hidden;
+}
+
+.sk_bd ul li .dd {
+    width: 290px;
+    height: 170px;
+}
+
+.sk_bd ul li .dd>p {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 7px;
+    text-align: left;
+}
+
+.sk_bd ul li .dd .btm {
+    height: 49px;
+    background-color: #b1191a;
+}
+
+.sk_bd ul li .dd .btm a {
+    display: block;
+    width: 290px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sk_bd ul li .dd .mdl {
+    height: 34px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.sk_bd ul li .dd .mdl span:first-child {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_bd ul li .dd .mdl span:last-child {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .dd .ccl {
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.sk_bd ul li .dd .ccl span>span {
+    font-size: 16px;
+    color: #e12228;
+}
+
+.sk_bd ul li .dd .ccl .jline {
+    display: inline-block;
+    width: 132px;
+    height: 13px;
+    border: 1px solid #ed282e;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 12px;
+}
+
+.sk_bd ul li .dd .ccl .jline>div {
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+}
+
+

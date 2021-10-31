@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #ccc;
+}
+
+.content {
+    width: 100%;
+    height: 670px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.content h3:nth-child(1) {
+    margin-top: 8px;
+    text-indent: 8px;
+}
+
+.content h3,
+.content h4 {
+    text-indent: 1em;
+    margin-top: 8px;
+}
+
+.content p {
+    margin-top: 8px;
+    font-weight: bold;
+    text-indent: 2em;
+}
+
+img {
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.textarea {
+    width: 90%;
+    height: 300px;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-indent: 1em;
+    background-color: #F7E8E9;
+}
+
+.content .button {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #F7E8E9;
+    border: 1px solid #C20C0C;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    transition: all 0.3s;
+}
+
+.content .button:hover {
+    background-color: white;
+}
+
+.return {
+    margin-top: 32px;
+    margin-left: 24px;
+}

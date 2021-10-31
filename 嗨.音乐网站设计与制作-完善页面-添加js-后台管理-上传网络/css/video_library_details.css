@@ -1,0 +1,255 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #F7E8E9;
+}
+
+.top {
+    width: 100%;
+    height: 760px;
+    position: relative;
+}
+
+.top_left {
+    width: 65%;
+    height: 390px;
+    background-color: #F7E8E9;
+    position: relative;
+    left: 0;
+    border: 1px solid #C20C0C;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.top_left h2 {
+    font-weight: bolder;
+    color: #C20C0C;
+    text-align: left;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom {
+    width: 65%;
+    height: 370px;
+    background-color: #F7E8E9;
+    position: relative;
+}
+
+
+/* 视频部分 end */
+
+.barrage {
+    width: 500px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.barrage .video {
+    width: 500px;
+    height: 360px;
+}
+
+video {
+    width: 500px;
+    height: 360px;
+    outline: 0;
+}
+
+
+/* 发送弹幕部分 start */
+
+.submit {
+    display: flex;
+    width: 98%;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    border: 1px solid #C20C0C;
+    outline: 0;
+    overflow: hidden;
+}
+
+.submit input {
+    /* 清除form表单元素自带的轮廓 */
+    outline: 0;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.submit button {
+    outline: 0;
+    border: 0;
+    width: 20%;
+    color: #000;
+    border: none;
+    background: linear-gradient(45deg, #C20C0C 70%, #EF384E);
+    /* 鼠标变小手 */
+    cursor: pointer;
+}
+
+
+/* 按钮点击后的样式 */
+
+.submit .btn_active {
+    color: #bbb;
+    background: #e7e7e7;
+    /* 鼠标变禁止点击状态 */
+    cursor: not-allowed;
+}
+
+
+/* 发送弹幕部分 end */
+
+canvas {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: -327px;
+}
+
+.bottom table {
+    width: 80%;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.bottom table h4 {
+    font-weight: bolder;
+    text-indent: 1em;
+}
+
+.bottom table tr {
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+}
+
+.bottom table tr:nth-child(2n) {
+    border: 1px solid #C20C0C;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.bottom table tr td[rowspan="2"] {
+    width: 36px;
+}
+
+.bottom table img {
+    height: 36px;
+    border: 1px solid #C20C0C;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.right {
+    width: 35%;
+    height: 770px;
+    background-color: #F7E8E9;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border: 1px solid #C20C0C;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.right h2 {
+    color: #C20C0C;
+    font-weight: bolder;
+    text-indent: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right table {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.right table p {
+    height: 32px;
+    line-height: 32px;
+    text-indent: 8px;
+}
+
+.right table p img {
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    border: 1px solid #C20C0C;
+    border-radius: 5px;
+}
+
+.right table h4 {
+    font-weight: bolder;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 6px;
+}
+
+.right table tr {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.right table tr td[rowspan="2"] {
+    width: 124px;
+}
+
+.right table td[rowspan="2"] img {
+    margin-bottom: 26px;
+    width: 120px;
+    height: 60px;
+    border: 1px solid #C20C0C;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: all 0.4s;
+}
+
+.right table td[rowspan="2"] img:hover {
+    box-shadow: 0 0 10px #C20C0C;
+}
+
+th {
+    font-size: 16px;
+    color: #C20C0C;
+}
+
+th a {
+    display: block;
+    margin-top: 18px;
+}
+
+th:hover {
+    text-decoration: underline;
+}
+
+.return {
+    position: absolute;
+    bottom: 5px;
+    left: -540px;
+}

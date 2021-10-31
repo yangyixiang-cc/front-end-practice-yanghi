@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="layui-v2.6.8/layui/css/layui.css">
+    <link rel="stylesheet" type=" text/css" href="./css/register.css ">
+</head>
+
+<body>
+    <div class="layui-anim layui-anim-up">
+        <div></div>
+        <div class="text">Register</div>
+        <div class="Register">
+
+            <form action="" method="get" name="Register" autocomplete="on">
+                <table>
+                    <tr>
+                        <td>用户名：</td>
+                        <td><input type="text" name="usename" placeholder="请输入用户名" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>密&nbsp;&nbsp;码：</td>
+                        <td><input type="password" name="usename" placeholder="请输入密码" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td>手机号：</td>
+                        <td><input type="tel" pattern="^\d{11}$" name="call" size="11" required></td>
+                    </tr>
+                    <tr>
+                        <td>性&nbsp;&nbsp;别：</td>
+                        <td>
+                            <input type="radio" name="sex" checked>&nbsp;&nbsp;<i class="layui-icon layui-icon-male"
+                                style="font-size: 18px; color: #C20C0C;"></i>&nbsp;&nbsp;<input type="radio" name="sex"
+                                checked>&nbsp;&nbsp;<i class="layui-icon layui-icon-female"
+                                style="font-size: 18px; color: #C20C0C;"></i></td>
+                    </tr>
+                    <tr>
+                        <td>年&nbsp;&nbsp;龄：</td>
+                        <td><input type="number" min="1" required></td>
+                    </tr>
+
+                </table>
+                <div class="last"><input type="submit" name="注册" value="注册"><input type="reset" name="重置" value="重置">
+                </div>
+            </form>
+
+            <div class="return layui-icon layui-icon-return" style="font-size: 32px; color: #C20C0C; "
+                onclick="document.location.href='login.html'"></div>
+
+        </div>
+        <script>
+            //Demo
+            layui.use('form', function () {
+                var form = layui.form;
+
+                //监听提交
+                form.on('submit(formDemo)', function (data) {
+                    layer.msg(JSON.stringify(data.field));
+                    return false;
+                });
+            });
+        </script>
+</body>
+
+</html>

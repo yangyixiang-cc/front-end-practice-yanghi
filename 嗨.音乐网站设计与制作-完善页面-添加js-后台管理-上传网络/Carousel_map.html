@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="layui-v2.6.8/layui/css/layui.css">
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <div class="layui-carousel layui-anim layui-anim-up" id="test1">
+        <div carousel-item>
+            <div class="layui-anim layui-anim-up">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="layui-anim layui-anim-up">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="layui-anim layui-anim-up">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="layui-anim layui-anim-up">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="layui-anim layui-anim-up">
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div class="layui-anim layui-anim-up">
+                <a href=""><img src="" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 条目中可以是任意内容，如：<img src=""> -->
+
+    <script src="layui-v2.6.8/layui/layui.js"></script>
+    <script>
+        layui.use('carousel', function () {
+            var carousel = layui.carousel;
+            //建造实例
+            carousel.render({
+                elem: '#test1',
+                width: '100%' //设置容器宽度
+                    ,
+                height: '900px',
+                arrow: 'always' //始终显示箭头
+                //,anim: 'updown' //切换动画方式
+            });
+        });
+    </script>
+</body>
+
+</html>

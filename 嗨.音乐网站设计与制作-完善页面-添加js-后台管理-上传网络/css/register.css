@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #F7E8E9;
+}
+
+.text {
+    color: #C20C0C;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    position: absolute;
+    top: 24px;
+    left: 80px;
+}
+
+.Register {
+    width: 90%;
+    height: 100%;
+    font-weight: bolder;
+    text-indent: 1em;
+    position: absolute;
+    top: 100px;
+    left: 16px;
+}
+
+table {
+    width: 100%;
+    height: 460px;
+    border-radius: 20px;
+}
+
+form tr {
+    margin-top: 20px;
+    border: 1px solid #C20C0C;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+form tr:last-child {
+    border: none;
+}
+
+form tr td:nth-child(1) {
+    text-align: center;
+    width: 30%;
+    height: 40px;
+}
+
+form tr td:nth-child(2) {
+    text-align: left;
+    width: 70%;
+    height: 40px;
+}
+
+input {
+    border: none;
+    width: 90%;
+    height: 40px;
+}
+
+input[type="radio"] {
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 30%;
+    border: 1px solid #C20C0C;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 16px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ccc;
+}

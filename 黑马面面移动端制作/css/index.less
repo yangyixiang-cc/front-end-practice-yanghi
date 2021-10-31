@@ -1,0 +1,225 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #F2F4F7;
+}
+
+@media screen and(min-width:750px) {
+    html {
+        font-size: 37.5px !important;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.warp {
+    background-color: #fff;
+    padding-bottom: 1.146667rem;
+
+}
+
+.header {
+    height: 2.133333rem;
+    border-bottom: .026667rem solid #eaeaea;
+    text-align: center;
+    line-height: 2.133333rem;
+    font-size: .933333rem;
+    color: #1c1c1c;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+    margin-bottom: 1.6rem;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 33.333333%;
+
+        img {
+            width: 3.706667rem;
+            height: 3.706667rem;
+        }
+
+        span {
+            font-size: .666667rem;
+            color: #707070;
+        }
+
+        &:nth-child(-n+3) {
+            margin-bottom: 1.653333rem;
+        }
+    }
+}
+
+.go {
+    margin: 0 .266667rem 0 .48rem;
+}
+
+.content {
+    padding: 1.066667rem .64rem;
+    background-color: #fff;
+    margin-top: .266667rem;
+
+    .con-hd {
+        display: flex;
+        justify-content: space-between;
+        height: 1.013333rem;
+        line-height: 1.013333rem;
+        font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+        align-items: center;
+        margin-bottom: .906667rem;
+
+        h4 {
+            margin: 0;
+            font-size: .746667rem;
+            line-height: .666667rem;
+            font-weight: bold;
+            color: #333333;
+
+            .icon {
+                display: inline-block;
+                width: 1.013333rem;
+                height: 1.013333rem;
+                vertical-align: middle;
+                margin-bottom: .106667rem;
+            }
+        }
+
+        .more {
+            font-size: .586667rem;
+            line-height: .72rem;
+            font-weight: 400;
+            color: #999999;
+        }
+    }
+}
+
+.get_job_focus {
+    position: relative;
+
+    .swiper-container {
+        width: 14.4rem;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        transition: 300ms;
+        transform: scale(0.8);
+        opacity: 0.4;
+
+        a {
+            width: 9.013333rem;
+            height: 10.026667rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        p {
+            width: 9.013333rem;
+            font-size: .666667rem;
+            margin-top: .64rem;
+            color: #333333;
+        }
+    }
+
+    .swiper-slide-active,
+    .swiper-slide-duplicate-active {
+        transform: scale(1);
+        z-index: 999;
+        opacity: 1;
+    }
+
+    .flog {
+        width: .613333rem !important;
+        height: 1.146667rem !important;
+        color: #000;
+    }
+}
+.study_con{
+    padding-bottom: 3.733333rem !important;
+}
+// 学习轮播图模块
+.study {
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .swiper-slide {
+        width: 7.733333rem;
+        height: 9.066667rem;
+        font-size: .48rem;
+        background: #fff;
+        border-radius: .266667rem;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+       h5{
+           font-size: .693333rem;
+           font-weight: 400;
+           margin: .533333rem 0;
+           padding: 0 .266667rem;
+           
+       }
+       p{
+           font-size: .693333rem;
+           color: #ff4400;
+           padding: 0 .266667rem;
+       }
+    }
+}
+// 底部模块
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.933333rem;
+    z-index: 9999;
+    display: flex;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    .item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: .533333rem;
+        img{
+            width: 1.04rem;
+            height: 1.093333rem;
+        }
+        p{
+            font-size: .586667rem;
+            color: #666666;
+            margin-top: .266667rem;
+            
+        }
+    }
+}

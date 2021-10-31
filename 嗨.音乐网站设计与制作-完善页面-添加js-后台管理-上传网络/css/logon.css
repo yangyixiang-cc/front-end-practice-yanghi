@@ -1,0 +1,116 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "幼圆";
+        }
+
+        body {
+            background-color: #F7E8E9;
+        }
+
+        .text {
+            color: #C20C0C;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+            position: absolute;
+            top: 160px;
+            left: 100px;
+        }
+
+        .icon {
+            position: absolute;
+            top: 30px;
+            left: 100px;
+        }
+
+        .login {
+            width: 60%;
+            height: 160px;
+            position: absolute;
+            top: 250px;
+            left: 30px;
+        }
+
+        .go div {
+            display: block;
+            font-family: "幼圆";
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            width: 140%;
+            height: 48px;
+            line-height: 48px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border: 1px solid #C20C0C;
+            background-color: white;
+        }
+
+        .go input[type="text"],
+        input[type="password"] {
+            display: inline;
+            width: 60%;
+            height: 46px;
+            border: none;
+            background-color: white;
+        }
+
+        .go input[type=submit] {
+            width: 100%;
+            height: 48px;
+            font-size: 16px;
+            border: none;
+            outline: 0px;
+            border-radius: 10px;
+            background-color: white;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .go input[type=submit]:hover {
+            background-color: #ccc;
+        }
+
+        .text1 {
+            position: absolute;
+            bottom: 100px;
+            left: 48px;
+        }
+
+        .text1 a:link,
+        a:visited {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        .text1 a:hover {
+            color: #333333;
+            text-decoration: underline;
+        }
+
+        input[type="button"] {
+            width: 35%;
+            height: 48px;
+            font-weight: 300;
+            font-size: 16px;
+            border: none;
+            outline: 0px;
+            margin-left: 24px;
+            border-radius: 10px;
+            background-color: white;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border: 1px solid #C20C0C;
+        }
+
+        input[type="button"]:hover {
+            background-color: #ccc;
+        }
+
+        .return {
+            margin-top: 44px;
+            margin-left: 5px;
+        }

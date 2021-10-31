@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7E8E9;
+}
+
+.song_list {
+    position: relative;
+}
+
+.song_list .img {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 60px;
+    left: 60px;
+}
+
+.song_list .img img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #C20C0C;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.song_list .introduce {
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 42px;
+    left: 260px;
+    border: 1px solid #C20C0C;
+    border-top: 0;
+    border-right: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 0 0 0 10px;
+}
+
+.song_list .introduce .gs {
+    height: 24px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.song_list .introduce .imgblog {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.song_list .introduce .gs span {
+    margin-left: 40px;
+}
+
+.song_list .introduce img {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #C20C0C;
+    overflow: hidden;
+}
+
+.song_list .introduce .imgblog span {
+    margin-right: 40px;
+}
+
+.song_list .introduce .imgblog {
+    margin-bottom: 32px;
+}
+
+.song_list .list {
+    width: 80%;
+    height: 240px;
+    position: absolute;
+    top: 474px;
+    left: 40px;
+}
+
+.song_list .list ol {
+    width: 100%;
+    height: 100%;
+}
+
+.song_list .list ol li {
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    text-align: left;
+    border: 1px solid #C20C0C;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.song_list .list ol li span {
+    margin-right: 60px;
+}
+
+.return {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}

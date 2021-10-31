@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #CFE1F7;
+}
+
+.head {
+    position: relative;
+    top: 20px;
+    width: 98%;
+    height: 90px;
+    border: 1px solid #C20C0C;
+    border-radius: 15px;
+    margin-left: 18px;
+    background-color: #F7E8E9;
+}
+
+.head h1 {
+    height: 80px;
+    font-size: 40px;
+    margin: auto;
+    font-weight: bolder;
+    line-height: 80px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.head .input {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+.head .input input[type="search"] {
+    width: 500px;
+    height: 65px;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
+.head .input input[type="submit"] {
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    background: white;
+    border-radius: 16px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #F7E8E9;
+    border: 1px solid #C20C0C;
+}
+
+.head .input input[type="submit"]:hover {
+    background-color: white;
+}
+
+.right {
+    position: fixed;
+    top: 140px;
+    right: 4%;
+    width: 30%;
+    height: 640px;
+    border-radius: 10px;
+    background-color: #F7E8E9;
+    z-index: 2;
+}
+
+.right iframe {
+    width: 100%;
+    height: 580px;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+.fright {
+    position: fixed;
+    top: 140px;
+    right: 5%;
+    width: 30%;
+    height: 640px;
+    border-radius: 10px;
+    background: #A3CAEB;
+    z-index: 1;
+}
+
+.fright h1 {
+    width: 96%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #F7E8E9;
+    border-radius: 10px;
+    text-indent: 24px;
+    margin: 16px;
+}
+
+.fright div {
+    position: relative;
+    width: 85%;
+    height: 96px;
+    background-color: #F7E8E9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+
+.fright div img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #C20C0C;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.fright div:last-child {
+    background-color: #F7E8E9;
+    padding-top: 1px;
+}
+
+.fright>div .a {
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #C20C0C;
+    position: absolute;
+    bottom: 20px;
+    right: 72px;
+    text-decoration: none;
+    background-color: #F7E8E9;
+    transition: all 0.4s;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fright>div .a:hover {
+    background-color: white;
+}
+
+.fright:hover {
+    z-index: 3;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 40px;
+    width: 36px;
+    height: 36px;
+    right: 100px;
+}
+
+.contment {
+    width: 49%;
+    height: 900px;
+    border-radius: 10px;
+    background-color: #F7E8E9;
+    position: relative;
+    top: 48px;
+    left: 100px;
+    padding-left: 17px;
+    padding-right: 20px;
+}
+
+.contment img {
+    margin: 20px;
+    width: 200px;
+    height: 180px;
+    border-radius: 16px;
+    border: 1px solid #C20C0C;
+    overflow: hidden;
+    background-color: white;
+    transition: all 0.4s;
+}
+
+.contment img:hover {
+    margin-top: 13px;
+    box-shadow: 0 0 18px #C20C0C;
+}
+
+.translat {
+    width: 240px;
+    height: 60px;
+    position: fixed;
+    bottom: 32px;
+    right: 28%;
+    border-radius: 10px;
+    background-color: #F7E8E9;
+    transition: all 0.4s;
+}
+
+.translat div {
+    float: left;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.translat a {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F7E8E9;
+    text-decoration: none;
+    color: block;
+}
+
+.translat a:hover {
+    background-color: #F25B67;
+}

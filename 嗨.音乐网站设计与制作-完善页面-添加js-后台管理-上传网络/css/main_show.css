@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card1 {
+    height: 694px;
+    width: auto;
+    padding: 38px;
+    position: relative;
+    overflow: hidden;
+    background-color: #F7E8E9;
+}
+
+.line {
+    width: 60%;
+    height: 10px;
+    border: 2px solid #C20C0C;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    position: absolute;
+    top: 75px;
+}
+
+.popular_guide {
+    margin-top: 15px;
+    width: 63%;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.popular_guide div {
+    width: 20%;
+    height: 20%;
+    margin: 30px;
+    border: 2px solid #c78e8e;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #000;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.popular_guide div:hover {
+    margin-top: 25px;
+    box-shadow: 0px 0px 18px #c78e8e;
+}
+
+.popular_guide div img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.popular_guide .text {
+    position: absolute;
+    background-color: transparent;
+    top: 43px;
+    left: -30px;
+    width: 100px;
+    height: auto;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    font-size: 12px;
+}
+
+.popular_guide .text:hover {
+    color: #C20C0C;
+    box-shadow: 0 0 0 #F7E8E9;
+    text-decoration: underline;
+}
+
+.more {
+    width: 70%;
+    height: 136px;
+    border: 2px solid #C20C0C;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+    overflow: hidden;
+    background-color: #F7E8E9;
+}
+
+.more h2 {
+    position: absolute;
+    top: 45px;
+    left: 300px;
+}
+
+.more>h2 a {
+    text-decoration: none;
+}
+
+.more>h2 a:link,
+:visited {
+    color: #000;
+}
+
+.more>h2 a:hover {
+    text-decoration: underline;
+    color: #C20C0C;
+}
+
+.popular_songs {
+    width: 28%;
+    height: 700px;
+    border: 2px solid #C20C0C;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    position: absolute;
+    background-color: #F7E8E9;
+    top: 38px;
+    right: 0px;
+    padding: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popular_songs .line {
+    width: 78%;
+    height: 10px;
+    border: 2px solid #C20C0C;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    position: absolute;
+    top: 46px;
+}
+
+.popular_songs ul {
+    width: 100%;
+    height: 570px;
+    margin-top: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #ccc;
+    position: relative;
+}
+
+.popular_songs ul li {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+    list-style-type: none;
+    border-collapse: collapse;
+}
+
+.popular_songs li:nth-child(even) {
+    background-color: white;
+}
+
+.popular_songs img {
+    width: 36px;
+    height: 36px;
+    margin: 3px;
+    margin-left: 6px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.name {
+    float: left;
+    width: 100px;
+    height: 42px;
+    line-height: 42px;
+    font-weight: bold;
+    position: absolute;
+    top: 2px;
+    left: 60px;
+}
+
+.log {
+    float: right;
+    width: 100px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 42px;
+    position: absolute;
+    top: 2px;
+    right: -10px;
+    transition: all 0.4s;
+}
+
+.log span:hover {
+    color: #C20C0C;
+}
+
+.popular_songs>h4 {
+    position: absolute;
+    bottom: 95px;
+    right: 90px;
+}
+
+.popular_songs>h4 a {
+    text-decoration: none;
+}
+
+.popular_songs>h4 a:link,
+:visited {
+    color: #000;
+}
+
+.popular_songs>h4 a:hover {
+    text-decoration: underline;
+    color: #C20C0C;
+}

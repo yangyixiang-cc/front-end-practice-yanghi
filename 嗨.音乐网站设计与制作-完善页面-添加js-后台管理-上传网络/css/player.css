@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #F7E8E9;
+}
+
+.rotate {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #C20C0C;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.rotate img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h2 {
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    color: #C20C0C;
+    font-weight: bolder;
+    border-bottom: 2px solid #C20C0C;
+}
+
+.lyrics_display {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    width: 80%;
+    height: 400px;
+    background-color: #ccc;
+    border: 1px solid #C20C0C;
+    border-radius: 16px;
+}
+
+.lyrics_display ul {
+    margin: 10px;
+}
+
+.lyrics_display ul li {
+    width: 100%;
+    height: 37px;
+    text-align: center;
+}
+
+.Song_playing {
+    border: none;
+    position: absolute;
+    top: 575px;
+}
+
+.Song_playing audio {
+    width: 300px;
+    padding-left: 10px;
+    outline: 0;
+}
+
+.layui-anim-loop {
+    animation: 20s;
+}
+.return{
+    position: absolute;
+    bottom: 3px;
+    left: 20px;
+}

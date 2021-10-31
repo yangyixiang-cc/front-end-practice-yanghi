@@ -1,0 +1,99 @@
+// 导入公共样式common
+@import "common";
+
+body{
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #F2F2F2;
+}
+@baseFont: 50;
+// 顶部搜索框
+.search-content{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 15rem;
+    height: (88rem / @baseFont);
+    background-color: #FFC001;
+    .classify{
+        width: (44rem / @baseFont);
+        height: (70rem / @baseFont);
+        margin: (11rem / @baseFont) (25rem / @baseFont) (7rem / @baseFont) (24rem / @baseFont);
+        background: url(../images/classify.png) no-repeat;
+        background-size: (44rem / @baseFont) (70rem / @baseFont);
+    }
+    .search{
+        flex: 1;
+        input{
+            width: 100%;
+            border: 0;
+            outline: none;
+            height: (66rem / @baseFont);
+            border-radius: (33rem / @baseFont);
+            background-color: #FFF2CC;
+            margin-top: (12rem / @baseFont);
+            font-size: (25rem / @baseFont);
+            padding-left: (55rem / @baseFont);
+            color: #757575;
+        }
+    }
+    .login{
+        width: (75rem / @baseFont);
+        height: (70rem / @baseFont);
+        margin: (10rem / @baseFont);
+        font-size: (25rem / @baseFont);
+        text-align: center;
+        color: #fff;
+        line-height: (70rem / @baseFont);
+    }
+}
+// banner部分
+.banner{
+    width: (750rem / @baseFont);
+    height: (368rem / @baseFont);
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+// ad
+.ad{
+    display: flex;
+    a{
+        flex:1;
+       
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+// 导航模块
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: (750rem / @baseFont);
+    a{
+        flex: 20%;
+        width: (150rem / @baseFont);
+        height: (140rem / @baseFont);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: (10rem / @baseFont) auto 0;
+        img{
+            width: (82rem / @baseFont);
+            height: (82rem / @baseFont);
+        }
+        span{
+            margin-top: (10rem / @baseFont);
+            font-size: (25rem / @baseFont);
+            color: #333;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/log.ico" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+    <script src="../plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <p>欢迎你的注册</p>
+                <p>一起享受音乐的世界吧</p>
+                <span class="fa fa-arrow-circle-down"></span>
+            </div>
+            <div class="swiper-slide">
+                <p>注 册</p>
+                <div class="box">
+                    <form action="#">
+                        <div>
+                            <label for="username">账 号：</label><input type="text" name="username" id="username">
+
+                        </div>
+                        <div>
+                            <label for="password">密 码：</label><input type="password" name="password" id="password">
+
+                        </div>
+                        <div>
+                            <label for="db_password">再次确认密码：</label><input type="password" name="db_password"
+                                id="db_password">
+                        </div>
+                        <div>
+                            <label for="sex">性 别：</label>
+                            <span><input type="radio" name="sex" id="sex" value="1">男<input type="radio" name="sex"
+                                    id="sex" value="0">女</span>
+                        </div>
+                        <div>
+                            <label for="age">年 龄：</label><input type="number" name="age" id="age" min="12">
+                        </div>
+                        <span class="last">
+                            <input type="checkbox" name="check" id="check"><a href="#">我已阅读并同意相关服务条款和隐私政策</a>
+                        </span>
+                        <button type="submit" class="fa fa-check"></button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <p>点击立即前往首页登录</p>
+                <a href="../index.html" target="_blank" class="fa fa-arrow-right"></a>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+
+</html>

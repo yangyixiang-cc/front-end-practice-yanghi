@@ -1,0 +1,139 @@
+.head {
+    width: 100%;
+    height: 1.125rem;
+    line-height: 1.125rem;
+    background-image: url(../images/logo1.jpg);
+    background-repeat: no-repeat;
+    background-position: .75rem center;
+    background-size: 3.75rem 1rem;
+    background-color: #F7E8E9;
+    border-bottom: .0125rem solid #C20C0C;
+    position: relative;
+}
+
+.head .head_nav {
+    margin-left: 5rem;
+    height: 1.125rem;
+}
+
+.head .head_nav a {
+    display: inline-block;
+    width: 1.375rem;
+    height: 1.1125rem;
+    font-size: .2rem;
+    text-align: center;
+}
+
+.head .head_nav a:first-child {
+    background-color: #F25B67;
+}
+
+.head .head_nav a:hover {
+    color: #000;
+    background-color: #e35555;
+}
+
+
+/*子导航*/
+
+.head .nav {
+    width: 100%;
+    height: .5rem;
+    border-top: .0125rem solid #C20C0C;
+    background-color: #F7E8E9;
+    border-bottom: .0125rem solid white;
+}
+
+.head .nav ul {
+    width: 15.5rem;
+    height: .5rem;
+    margin-left: 5.125rem;
+}
+
+.head .nav ul li {
+    float: left;
+    width: auto;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .15rem;
+    cursor: pointer;
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.search1 {
+    position: absolute;
+    top: .0625rem;
+    right: 5.625rem;
+}
+
+.search1 input {
+    border: none;
+    background-color: white;
+    font-size: .2rem;
+    font-family: "幼圆";
+    color: #C20C0C;
+}
+
+.search1 input[type="search"] {
+    width: 4rem;
+    height: 0.625rem;
+    border-radius: .25rem 0rem 0rem .25rem;
+    text-align: left;
+    padding-left: .6rem;
+    position: absolute;
+    top: .225rem;
+    right: 0;
+}
+
+.search1 button {
+    width: 1.5rem;
+    height: 0.625rem;
+    border-radius: 0rem .25rem .25rem 0rem;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    top: .225rem;
+    font-size: .2rem;
+}
+
+.search1 button:hover {
+    background-color: #F25B67;
+    color: black;
+}
+
+.creator {
+    display: inline-block;
+    width: 1.65rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    position: absolute;
+    top: .25rem;
+    right: 1.5rem;
+    border: .0125rem solid #C20C0C;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: .15rem;
+    text-align: center;
+}
+
+.creator a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.user_logon {
+    width: 1rem;
+    height: 0.45rem;
+    position: absolute;
+    top: .3375rem;
+    right: .25rem;
+    line-height: 0.45rem;
+    color: white;
+    font-size: 0.225rem;
+    text-align: center;
+}

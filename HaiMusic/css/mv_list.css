@@ -1,0 +1,144 @@
+
+.main_box .box{
+    width: 98%;
+    background-color: #F7E8E9;
+    margin: auto;
+    padding-top: .625rem;
+    padding-bottom: .375rem;
+}
+.main_box .box>.header{
+    width: 98%;
+    height: 3rem;
+    border-radius: .1rem;
+    background-color: white;
+    padding-top: .375rem;
+}
+
+.main_box .box> .header div{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.main_box .box >.header div span{
+    display: inline-block;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin-left: .125rem;
+    text-align: center;
+    border-radius: .05rem;
+    background-color: #CCC;
+    margin-right: .25rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+.main_box .box >.header div a{
+    display: inline-block;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .15rem;
+    padding: auto .25rem auto .25rem;
+    background-color: #F7E8E9;
+    margin: auto .0625rem auto .0625rem;
+    border-radius: .05rem;
+}
+
+.main_box .box >.header div a:hover{
+    color: #000;
+    background-color: #e35555;;
+}
+
+/* .main_box .box .header div a:first-child{
+    background-color: #C20C0C;
+} */
+
+.main_box .box .context_header{
+    width: 98%;
+    height: .5rem;
+    margin-top: 1.25rem;
+}
+.main_box .box .context_header span{
+    font-size: .4rem;
+    padding-left: .125rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.main_box .box .context_header button{
+    float: right;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin-left: .0625rem;
+    margin-right: .0625rem;
+    background-color: white;
+    border-radius: .05rem;
+    font-size: .2rem;
+    text-align: center;
+    transition: 0.5s ease-in;
+}
+.main_box .box .context_header button:hover{
+    background-color:#e35555;
+}
+.main_box .box .context{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    background-color: white;
+    border-radius: .1rem;
+    margin-top: .125rem;
+    padding: .125rem;
+    padding-left: .25rem;
+    padding-top: .25rem;
+}
+
+.main_box .box .context > div{
+    flex: 25%;
+    width: 4.5rem;
+    margin: .125rem;
+    overflow: hidden;
+}
+
+.main_box .box .context > div img{
+    width: 100%;
+    height: 3rem;
+    border-radius: .05rem;
+}
+
+.main_box .box .context > div .bot{
+    margin-left: .05rem;
+    margin-top: .05rem;
+}
+
+.main_box .box .context > div .bot .title{
+    font-weight: bold;
+}
+
+
+
+.main_box .box  .forward{
+    width: 30%;
+    margin: .5rem auto .125rem auto;
+    text-align: center;
+    border-top: 1px solid #C20C0C;
+    padding-top: .25rem;
+    font-size: .3rem;
+}
+
+.main_box .box  .forward button{
+    width: .625rem;
+    height: .625rem;
+    line-height: .625rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.main_box .box  .forward button:hover{
+    background-color: #F25B67;
+}

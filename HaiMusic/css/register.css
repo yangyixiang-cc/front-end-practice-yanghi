@@ -1,0 +1,175 @@
+body{
+    background-color: white;
+    overflow: hidden;
+}
+
+.swiper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.swiper .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-wrapper .swiper-slide:first-child{
+    background-image: url(../images/register.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.swiper .swiper-wrapper .swiper-slide:first-child p{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-size: .75rem;
+    color: #000;
+}
+
+.swiper .swiper-wrapper .swiper-slide:first-child  span{
+    margin-top: 1.25rem;
+    font-size: .5625rem;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2){
+    background-image: url(../images/register1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) p{
+    margin-top: .375rem;
+    font-weight: bolder;
+    color: #000;
+    font-size: .5rem
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box{
+    width: 60%;
+    height: 8.75rem;
+    margin: auto;
+    margin-top: 1rem;
+    color: #000;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box div{
+    width: 90%;
+    margin: auto;
+    height: 1rem;
+    line-height: 1rem;
+    margin-top: .25rem;
+    display: flex;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box div label{
+    flex: 2;
+    text-align: left;
+    padding-top: .2rem;
+    font-size: .35rem;
+    font-weight: bolder;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box div input{
+    flex: 8;
+    border-radius: .1rem;
+    border: .0125rem solid #000;
+    text-indent: 1em;
+    font-size: .225rem;
+    color: #000;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box div  span{
+    flex: 8;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    font-size: .375rem;
+    font-weight: bolder;
+    background-color: white;
+    border: .0125rem solid #000;
+    border-radius: .1rem;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box div span input[type="radio"]{
+    width: .375rem;
+    height: .375rem;
+    margin-left: .125rem;
+    margin-right: .25rem;
+    border: .0125rem solid #000;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box .last{
+    display: block;
+    width: 70%;
+    margin-left: 23%;
+    text-align: left;
+    height: 1rem;
+    position: relative;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box .last input[type="checkbox"]{
+    width: .375rem;
+    height: .375rem;
+    position: absolute;
+    left: .125rem;
+    top:.25rem;
+}
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box .last a{
+    display: inline-block;
+    height: .5rem;
+    line-height: .5rem;
+    padding-left: .0625rem;
+    padding-right: .0625rem;
+    margin-top: .1875rem;
+    margin-left: .625rem;
+    font-size: .15rem;
+    border: .0125rem solid #000;
+    border-radius: .05rem;
+    background-color: white;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box label{
+    width: 2rem;
+    height: .625rem;
+    line-height: .625rem;
+    font-size: .2rem;
+    font-weight: bolder;
+}
+
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box button{
+    margin-top: .25rem;
+    width: 2.5rem;
+    height: .875rem;
+    line-height: .875rem;
+    background-color: white;
+    border: .0125rem solid #000;
+    border-radius: .05rem;
+    font-size: .3rem;
+}
+
+.swiper .swiper-wrapper .swiper-slide:nth-child(2) .box button:hover{
+    color:  #C20C0C;
+}
+
+.swiper .swiper-wrapper .swiper-slide:last-child{
+    background-image: url(../images/register2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.swiper .swiper-wrapper .swiper-slide:last-child p{
+    display: block;
+    margin-top: 6.25rem;
+    font-size: .5625rem;
+    color: #000;
+    font-weight: bolder;
+}
+
+.swiper .swiper-wrapper .swiper-slide:last-child  a{
+    margin-top: 1.25rem;
+    font-size: .5625rem;
+    padding: .0625rem;
+}

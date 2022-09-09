@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/log.ico" media="screen" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌曲详情</title>
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/song.css">
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <!--网页logo 介绍 首行-->
+    <div class="head">
+        <div class="head_nav">
+            <a href="../index.html">发现音乐</a>
+            <a href="#">我的音乐</a>
+            <a href="shop.html" target="_blank">商城</a>
+        </div>
+        <form action="" name="search1" class="search1">
+            <input type="search" name="search" placeholder="音乐/用户/MV"><button class="fa fa-search"></button>
+        </form>
+        <div class="creator"><a href="#">创作者中心</a></div>
+        <div class="user_logon"><a href="javascript:void(0);" id="link">登录</a></div>
+    </div>
+    <!--登录模态框-->
+    <div class="login" id="login">
+        <div id="title" class="login-title">登&nbsp;录
+            <span><a id="closeBtn" href="javascript:void(0);" class="close-login fa fa-close"> </a></span>
+        </div>
+        <div class="sm_header">扫 码 登 录</div>
+        <div class="left">
+            <img src="../images/login.png" alt="登录二维码">
+            <div class="shuffle" style="display: none;"><a href="javascript:void(0)" class="fa fa-refresh"></a></div>
+        </div>
+
+        <div class="login-input-content">
+            <form action="">
+                <div class="login-input">
+                    <label for="info[username]">用户名：</label>
+                    <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="input">
+                </div>
+                <div class="login-input">
+                    <label for="info[password]">登录密码：</label>
+                    <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="input">
+                </div>
+            </form>
+
+        </div>
+        <div id="loginBtn" class="login-button">
+            <a href="javascript:void(0);" id="login-button-sumbit" class="fa fa-check"></a>
+        </div>
+        <div class="register">
+            <a href="./sub/register.html" target="_blank">还未注册，立即去注册 &gt;</a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!--中部主体部分-->
+    <div class="main_box">
+        <div class="top">
+            <div class="left">
+                <img src="../images/gqfm11.jpg" alt="歌曲">
+            </div>
+            <div class="right">
+                <div class="song_name">她本身</div>
+                <div class="singer_name"><a href="#">祖娅纳惜</a></div>
+                <div class="time">2002-10-1</div>
+                <div class="bot">
+                    <button><a href="./play_music.html" class="fa fa-play"></a></button>
+                    <button><a href="#" class="fa fa-heart-o"></a></button>
+                    <button><a href="#" class="fa fa-share"></a></button>
+                    <button><a href="#" class="fa fa-commenting-o"></a></button>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="box">
+            <div class="left">
+                <div class="song_text">
+                    <div class="header">歌词</div>
+                    <p id="s">
+                        她本身 - 肥皂菌 云之泣 王梓钰 祖娅纳惜 - 徒有琴<br><br> 词：江岸
+
+                        <br><br> 曲：胡寒
+
+                        <br><br> 肥皂菌：
+
+                        <br><br> 她怕黑却生于
+
+                        <br><br> 最深处的海水
+
+                        <br><br> 她爱美却困于
+
+                        <br><br> 无人区衣柜
+
+                        <br><br> 云の泣：
+
+                        <br><br> 她在沉船派对
+
+                        <br><br>
+                    </p>
+                    <p id="x" style="display: none;">
+                        谁都不想理会<br><br> 发间别上一朵
+
+                        <br><br> 缺氧玫瑰
+
+                        <br><br> 王梓钰：
+
+                        <br><br> 她与鼠相作陪
+
+                        <br><br> 从那道缝隙内
+
+                        <br><br> 她看到了一朵
+
+                        <br><br> 刺眼向日葵
+
+                        <br><br> 祖娅纳惜：
+
+                        <br><br> 一千年的酒啊
+
+                        <br><br> 怎么都喝不醉
+
+                        <br><br> 她们由内而外
+
+                        <br><br> 散发香味
+
+                        <br><br> 肥皂菌/云の泣：
+
+                        <br><br> 怕生 却更怕真<br><br> 怕等 却一直忍<br><br> 起风 就关上门<br><br> 鬼神 不相认<br><br> 王梓钰/祖娅纳惜：
+
+                        <br><br> 她曾是 美的病人<br><br> 她曾是 一道鞭痕<br><br> 他们是 裙下之臣<br><br> 她是 她本身<br><br> 肥皂菌/（云の泣）：
+
+                        <br><br> 她怕黑却生于
+
+                        <br><br> （梦冷又真）
+
+                        <br><br> 最深处的海水
+
+                        <br><br> （海沉又深）
+
+                        <br><br> 云の泣/（肥皂菌）：
+
+                        <br><br> 她爱美却困于
+
+                        <br><br> （关不上的门）
+
+                        <br><br> 无人区衣柜
+
+                        <br><br> （猜不透的人和人）
+
+                        <br><br> 王梓钰/（祖娅纳惜）：
+
+                        <br><br> 一千年的酒啊
+
+                        <br><br> （梦冷又真）
+
+                        <br><br> 怎么都喝不醉
+
+                        <br><br> （海沉又深）
+
+                        <br><br> 祖娅纳惜/（王梓钰）：
+
+                        <br><br> 她们由内而外
+
+                        <br><br> （关不上的门）
+
+                        <br><br> 散发香味
+
+                        <br><br> （无人替我做噩梦）
+
+                        <br><br> 肥皂菌/云の泣：
+
+                        <br><br> 她曾是 美的病人<br><br> 她曾像 一道鞭痕<br><br> 他们是 裙下之臣<br><br> 她是 她本身<br><br> 王梓钰/祖娅纳惜：
+
+                        <br><br> 她曾是 谁的情人<br><br> 她曾比 谁都赤忱<br><br> 她曾有 完整的魂<br><br> 她是 她本身<br><br> 肥皂菌：
+
+                        <br><br> 再忍忍 浮出海的真<br><br> 再等等 先别关上门<br><br> 云の泣：
+
+                        <br><br> 若起风 给风一个吻<br><br> 等鬼神再相认
+
+                        <br><br> 王梓钰：
+
+                        <br><br> 再忍忍 浮出海的真<br><br> 再等等 先别关上门<br><br> 祖娅纳惜：
+
+                        <br><br> 若起风 给风一个吻<br><br> 等鬼神再相认
+
+                        <br><br> 肥皂菌/云の泣：
+
+                        <br><br> 她怕黑却生于
+
+                        <br><br> 最深处的海水
+
+                        <br><br> 她爱美却困于
+
+                        <br><br> 无人区衣柜
+
+                        <br><br> 王梓钰/祖娅纳惜：
+
+                        <br><br> 一千年的酒啊
+
+                        <br><br> 怎么都喝不醉
+
+                        <br><br> 她们由内而外
+
+                        <br><br> 散发香味
+
+                        <br><br> 肥皂菌：
+
+                        <br><br> 开始衰弱
+
+                        <br><br> 云の泣：
+
+                        <br><br> 逐渐解脱
+
+                        <br><br> 王梓钰：
+
+                        <br><br> 海面风浪平
+
+                        <br><br> 祖娅纳惜：
+
+                        <br><br> 海下生出野火
+
+                        <br><br> 王梓钰：
+
+                        <br><br> 开始衰弱
+
+                        <br><br> 祖娅纳惜：
+
+                        <br><br> 逐渐解脱
+
+                        <br><br> 肥皂菌：
+
+                        <br><br> 或许疯掉半个才能活
+
+                        <br><br>
+                    </p>
+                    <div class="flog" id="flog">▲</div>
+                </div>
+                <!-- 评论 -->
+                <div class="songs_comment">
+                    <div class="song_header">评论</div>
+                    <div class="send_message">
+                        <img src="../images/gs3.jpg" alt="歌手">
+                        <div class="text"><textarea name="text" rows="36" cols="10"></textarea></div>
+                        <button class="btn">发送</button>
+                    </div>
+                    <div class="comments">
+                        <div class="header"><b>众多评论</b> <span><a href="#">热度</a>|<a href="#">时间</a>|<a
+                                    href="#">随机</a></span></div>
+                        <table>
+                            <tr>
+                                <td><img src="../images/gs1.jpg"></td>
+                                <td>
+                                    <a>铁甲神医</a>
+                                    <div>致敬！！！</div>
+                                    <div class="footer"><a href="#">点赞(<span>35</span>)</a>|<a href="#">回复</a></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../images/gs2.jpg"></td>
+                                <td>
+                                    <a>卤水豆腐</a>
+                                    <div>此去泉台招旧部，旌旗十万斩阎罗</div>
+                                    <div class="footer"><a href="#">点赞(<span>35</span>)</a>|<a href="#">回复</a></div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/gs3.jpg"></td>
+                                <td>
+                                    <a>风尘不染四月天</a>
+                                    <div>顶！顶！</div>
+                                    <div class="footer"><a href="#">点赞(<span>35</span>)</a>|<a href="#">回复</a></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../images/gs4.jpg"></td>
+                                <td>
+                                    <a>_山与月</a>
+                                    <div>剑锋之上是我们的家乡！</div>
+                                    <div class="footer"><a href="#">点赞(<span>35</span>)</a>|<a href="#">回复</a></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="../images/gs5.jpg"></td>
+                                <td>
+                                    <a>桃溪</a>
+                                    <div>ohhhhhhhhhh</div>
+                                    <div class="footer"><a href="#">点赞(<span>35</span>)</a>|<a href="#">回复</a></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/gs6.jpg"></td>
+                                <td>
+                                    <a>落星喝</a>
+                                    <div>太帅了</div>
+                                    <div class="footer"><a href="#">点赞(<span>35</span>)</a>|<a href="#">回复</a></div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="paging_bar">
+                            <button class="btn fa fa-angle-left" disabled></button>
+                            <a href="#" class="choose">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">...</a>
+                            <a href="#">18</a>
+                            <button class="btn fa fa-angle-right"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="header">相关歌单</div>
+                <div class="about_gd">
+                    <div>
+                        <a href="#"><img src="../images/gd11.jpg" alt="gd"></a>
+                        <div class="bot">
+                            <a href="#">
+                                <div class="title">錦鯉大人”私藏好歌分享环节</div>
+                            </a>
+                            <div class="name">勝者</div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img src="../images/gd13.jpg" alt=""></a>
+                        <div class="bot">
+                            <a href="#"><span class="title">暗黑|我的世界从未有黎明</></a>
+                            <div class="name">吾頔</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header">相关MV</div>
+                <div class="about_mv">
+                    <div>
+                        <a href="#"><img src="../images/gd7.jpg" alt="mv"></a>
+                        <div class="bot">
+                            <a href="#"><span class="title">暗黑|我的世界从未有黎明</></a>
+                            <div class="name">吾頔</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clear"></div>
+    <footer>
+        <a href="https://beian.miit.gov.cn" target="_blank">
+            <p>豫ICP备2021020486号-1</p>
+        </a>
+        <p>本网站仅供演示所用，无任何商业用途</p>
+        <p>此演示网页中，图片与名称可能不对应，敬请谅解</p>
+    </footer>
+    <div id="bg" class="login-bg"></div>
+</body>
+
+</html>

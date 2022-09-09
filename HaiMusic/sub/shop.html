@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/log.ico" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>嗨.音乐商城</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/shop.css">
+    <script src="../js/flexible.js"></script>
+    <script src="../plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <!--网页logo 介绍 首行-->
+    <div class="head">
+        <form action="#" name="search1" class="search1">
+            <input type="search" name="search" placeholder="IP周边/商品"><button class="fa fa-search"></button>
+        </form>
+        <div class="creator"><a href="#">创作者中心</a></div>
+        <div class="user_logon"><a href="javascript:void(0);" id="link">登录</a></div>
+    </div>
+    <!--登录模态框-->
+    <div class="login" id="login">
+        <div id="title" class="login-title">登&nbsp;录
+            <span><a id="closeBtn" href="javascript:void(0);" class="close-login fa fa-close"> </a></span>
+        </div>
+        <div class="sm_header">扫 码 登 录</div>
+        <div class="left">
+            <img src="../images/login.png" alt="登录二维码">
+            <div class="shuffle" style="display: none;"><a href="javascript:void(0)" class="fa fa-refresh"></a></div>
+        </div>
+
+        <div class="login-input-content">
+            <form action="#">
+                <div class="login-input">
+                    <label for="info[username]">用户名：</label>
+                    <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="input">
+                </div>
+                <div class="login-input">
+                    <label for="info[password]">登录密码：</label>
+                    <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="input">
+                </div>
+            </form>
+
+        </div>
+        <div id="loginBtn" class="login-button">
+            <a href="javascript:void(0);" id="login-button-sumbit" class="fa fa-check"></a>
+        </div>
+        <div class="register">
+            <a href="sub/register.html" target="_blank">还未注册，立即去注册 &gt;</a>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="swiper ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../images/slb1.jpg" alt="轮播图">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/slb2.jpg" alt="轮播图">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/slb3.jpg" alt="轮播图">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/slb4.jpg" alt="轮播图">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/slb5.jpg" alt="轮播图">
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>>
+    <div class="main_box">
+        <!--导航-->
+        <div class="nav">
+            <ul>
+                <a href="#">
+                    <li><span></span> 热销商品
+                    </li>
+                </a>
+                <a href="#">
+                    <li><span></span>
+                        IP周边
+                    </li>
+                </a>
+                <a href="#">
+                    <li><span></span>
+                        数码影音
+                    </li>
+                </a>
+                <a href="#">
+                    <li><span></span>
+                        商家入驻
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <!--商品展示-->
+        <div class="things_show">
+            <!--图片展示-->
+            <div class="migshow">
+                <img src="../images/zs1.jpg" alt="#">
+                <img src="../images/zs2.jpg" alt="#">
+            </div>
+            <div class="clear"></div>
+            <h2 class="h21">热门推荐</h2>
+            <!--商品展示-->
+            <div class="product_display1">
+                <ul>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp1.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> i12真无线蓝牙耳机 智能触控 双耳运动跑步 安卓苹果通用</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp2.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> ADVENTURE TIME 探险活宝 限量款2代蓝牙耳机</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp3.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原创木质冰箱磁贴 创意礼品生日礼物</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp4.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原木质笔实木头签字笔鱼笔</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp5.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 爱国者（aigo）无损hifi音乐播放器</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp6.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 网易云音乐经典音乐心温变杯</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">20.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp7.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>桂林鲜米粉 245克*6盒</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp8.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>网易云音乐潮流复古透明雨伞</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">19.8</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--轮播广告位一行-->
+            <div class="carousel_advertising_space"></div>
+            <h2 class="h22">热门商品</h2>
+            <!--商品展示-->
+            <div class="product_display2">
+                <ul>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp1.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> i12真无线蓝牙耳机 智能触控 双耳运动跑步 安卓苹果通用</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp2.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> ADVENTURE TIME 探险活宝 限量款2代蓝牙耳机</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp3.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原创木质冰箱磁贴 创意礼品生日礼物</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp4.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原木质笔实木头签字笔鱼笔</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp5.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 爱国者（aigo）无损hifi音乐播放器</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp6.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 网易云音乐经典音乐心温变杯</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">20.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp7.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>桂林鲜米粉 245克*6盒</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp8.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>网易云音乐潮流复古透明雨伞</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">19.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp1.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> i12真无线蓝牙耳机 智能触控 双耳运动跑步 安卓苹果通用</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp2.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> ADVENTURE TIME 探险活宝 限量款2代蓝牙耳机</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp3.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原创木质冰箱磁贴 创意礼品生日礼物</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp4.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原木质笔实木头签字笔鱼笔</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp5.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 爱国者（aigo）无损hifi音乐播放器</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp6.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 网易云音乐经典音乐心温变杯</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">20.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp7.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>桂林鲜米粉 245克*6盒</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp8.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>网易云音乐潮流复古透明雨伞</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">19.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp1.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> i12真无线蓝牙耳机 智能触控 双耳运动跑步 安卓苹果通用</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp2.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> ADVENTURE TIME 探险活宝 限量款2代蓝牙耳机</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp3.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原创木质冰箱磁贴 创意礼品生日礼物</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp4.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>本来设计 原木质笔实木头签字笔鱼笔</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">56.8</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp5.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 爱国者（aigo）无损hifi音乐播放器</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">99.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp6.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3> 网易云音乐经典音乐心温变杯</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">20.7</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp7.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>桂林鲜米粉 245克*6盒</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">9.9</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_display1_big">
+                            <a href="#"><img src="../images/sp8.jpg"></a>
+                            <div>
+                                <a href="#">
+                                    <h3>网易云音乐潮流复古透明雨伞</h3>
+                                </a>
+                                <p class=" layui-icon layui-icon-rmb">19.8</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="turn_the_page">
+            <ul>
+                <a href="#">
+                    <li class="fa fa-angle-left"></li>
+                </a>
+                <a href="#">
+                    <li>1</li>
+                </a>
+                <a href="#">
+                    <li>2</li>
+                </a>
+                <a href="#">
+                    <li>3</li>
+                </a>
+                <a href="#">
+                    <li>4</li>
+                </a>
+                <a href="#">
+                    <li>5</li>
+                </a>
+                <a href="#">
+                    <li>6</li>
+                </a>
+                <a href="#">
+                    <li>7</li>
+                </a>
+                <a href="#">
+                    <li>8</li>
+                </a>
+                <a href="#">
+                    <li>9</li>
+                </a>
+                <a href="#">
+                    <li class="fa fa-angle-right"></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://beian.miit.gov.cn" target="_blank">
+            <p>豫ICP备2021020486号-1</p>
+        </a>
+        <p>本网站仅供演示所用，无任何商业用途</p>
+        <p>此演示网页中，图片与名称可能不对应，敬请谅解</p>
+    </footer>
+</body>
+
+</html>

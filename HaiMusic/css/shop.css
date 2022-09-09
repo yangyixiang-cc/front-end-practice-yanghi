@@ -1,0 +1,228 @@
+body{
+    background-color: white;
+}
+.main_box{
+    background-color: white;
+}
+.head {
+    background-image: url(../images/logo2.jpg);
+}
+
+.swiper .swiper-wrapper img{
+    width: 100%;
+    height: 7.5rem;
+}
+
+.nav {
+    background-color: #F7E8E9;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1rem;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.nav ul {
+    width: 100%;
+}
+
+.nav ul li {
+    width: 25%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    float: left;
+    color: #000;
+    font-size: .25rem;
+}
+
+.things_show {
+    width: 98%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+.things_show .migshow {
+    width: 100%;
+    height: 3.75rem;
+}
+
+.things_show .migshow img {
+    width: 49.1%;
+    float: left;
+    margin-top: .375rem;
+    margin-bottom: .375rem;
+}
+
+.things_show .migshow img:first-child {
+    margin-right: .25rem;
+}
+
+.h21 {
+    width: 98%;
+    height: .5rem;
+    line-height: .5rem;
+    font-weight: bolder;
+    font-size: .3rem;
+    color: #000;
+    border-bottom: .0125rem solid #C20C0C;
+    margin: auto;
+}
+
+.product_display1 {
+    width: 100%;
+    margin: auto;
+    margin-top: .25rem;
+    background-color:white;
+}
+
+.product_display1 ul {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .5rem;
+}
+
+.product_display1 ul li {
+    flex: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3.4875rem;
+    height: 4.775rem;
+}
+
+.product_display1 ul li .product_display1_big {
+    width: 3.2875rem;
+    height: 4.1875rem;
+    border: none;
+    outline: 0;
+    border-radius: .05rem;
+    background-color: #ccc;
+}
+
+.product_display1 img {
+    width: 3.25rem;
+    height: 3.25rem;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.product_display1 h3,
+p {
+    text-align: center;
+}
+
+.product_display1 h3:hover {
+    color: #C20C0C;
+    text-decoration: underline;
+}
+
+.h22 {
+    width: 100%;
+    margin: auto;
+    height: .5rem;
+    line-height: .5rem;
+    font-weight: bolder;
+    font-size: .3rem;
+    color: #000;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.product_display2 {
+    width: 100%;
+    margin: auto;
+    margin-top: .25rem;
+    background-color: white;
+}
+
+.product_display2 ul {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .5rem;
+}
+
+.product_display2 ul li {
+    flex: 25%;
+    width: 3.4875rem;
+    height: 4.775rem;
+}
+
+.product_display2 ul li .product_display1_big {
+    width: 3.2875rem;
+    height: 4.1875rem;
+    border: none;
+    outline: 0;
+    border-radius: .05rem;
+    background-color: #ccc;
+}
+
+.product_display2 img {
+    position: relative;
+    width: 3.25rem;
+    height: 3.25rem;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+
+
+.product_display2 h3,
+p {
+    text-align: center;
+}
+
+.product_display2 h3:hover {
+    color: #C20C0C;
+    text-decoration: underline;
+}
+
+.product_display1 p,
+.product_display2 p {
+    color: #C20C0C;
+}
+
+.turn_the_page {
+    background-color: #F7E8E9;
+    width: 80%;
+    height: .625rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .05rem;
+    border-top: .0125rem solid #C20C0C;
+}
+
+.turn_the_page ul {
+    width: 100%;
+    margin-left: .5rem;
+}
+
+.turn_the_page ul li {
+    width: 9%;
+    height: .625rem;
+    line-height: .625rem;
+    float: left;
+    color: #000;
+}
+
+.turn_the_page ul li:hover {
+    color: #C20C0C;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 1.25rem;
+    padding-top: .25rem;
+    line-height: .25rem;
+    color: #000;
+    background-color: #F7E8E9;
+}
+

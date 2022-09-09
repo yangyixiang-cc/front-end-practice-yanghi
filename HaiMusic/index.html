@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/log.ico" media="screen">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嗨.音乐</title>
+    <link rel="stylesheet" type="text/css" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_show.css">
+    <script src="./plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/flexible.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <!--网页logo 介绍 首行-->
+    <div class="head">
+        <div class="head_nav">
+            <a href="index.html">发现音乐</a>
+            <a href="index.html">我的音乐</a>
+            <a href="sub/shop.html" target="_blank">商城</a>
+        </div>
+        <!--导航部分-->
+        <div class="nav" id="nav">
+            <ul>
+                <a href="index.html" style="color: #C20C0C;">
+                    <li>推荐</li>
+                </a>
+                <a href="sub/ranking_list.html">
+                    <li>排行榜</li>
+                </a>
+                <a href="sub/sort_list.html">
+                    <li>分类歌单</li>
+                </a>
+                <a href="sub/mv_list.html">
+                    <li>MV</li>
+                </a>
+                <a href="sub/singer_list.html">
+                    <li>歌手</li>
+                </a>
+                <a href="sub/about.html">
+                    <li>关于作者</li>
+                </a>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <form action="#" name="search1" class="search1">
+            <input type="search" name="search" placeholder="音乐/用户/MV"><button class="fa fa-search"></button>
+        </form>
+        <div class="creator"><a href="#">创作者中心</a>
+        </div>
+        <div class="user_logon"><a href="javascript:void(0);" id="link">登录</a></div>
+    </div>
+    <!--登录模态框-->
+    <div class="login" id="login">
+        <div id="title" class="login-title">登&nbsp;录
+            <span><a id="closeBtn" href="javascript:void(0);" class="close-login fa fa-close"> </a></span>
+        </div>
+        <div class="sm_header">扫 码 登 录</div>
+        <div class="left">
+            <img src="./images/login.png" alt="登录二维码">
+            <div class="shuffle" style="display: none;"><a href="javascript:void(0)" class="fa fa-refresh"></a></div>
+        </div>
+        <div class="login-input-content">
+            <form action="#">
+                <div class="login-input">
+                    <label for="info[username]">用户名：</label>
+                    <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="input">
+                </div>
+                <div class="login-input">
+                    <label for="info[password]">登录密码：</label>
+                    <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="input">
+                </div>
+            </form>
+        </div>
+        <div id="loginBtn" class="login-button">
+            <a href="javascript:void(0);" id="login-button-sumbit" class="fa fa-check"></a>
+        </div>
+        <div class="register">
+            <a href="sub/register.html" target="_blank">还未注册，立即去注册 &gt;</a>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="swiper ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/lbt8.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt1.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt2.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt3.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt4.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt5.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt6.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt7.jpg" alt="歌曲推荐">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/lbt8.jpg" alt="歌曲推荐">
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--中部主体部分-->
+    <div class="main_box">
+        <div id="tab1" class="tab1">
+            <!-- 左侧栏 -->
+            <div class="left">
+                <!-- 歌单推荐 -->
+                <div class="header"><span>歌单推荐</span><a href="sub/sort_list.html">查看更多</a>
+                </div>
+                <div class="song_list_recommend">
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd1.jpg" alt="歌单推荐"></a>
+                        <a href="sub/song_list_details.html" target="_blank">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd2.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd3.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd4.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd5.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd6.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd7.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/song_list_details.html" target="_blank"><img src="./images/gd8.jpg" alt="歌单推荐"></a>
+                        <a href="index.html">
+                            <p>文艺诗集||浪漫诗人的惊鸿之作</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                </div>
+                <!-- 标语 -->
+                <div class="slogan">
+                    <a href="index.html">
+                        <img src="images/ad1.jpg" alt="ad">
+                    </a>
+                </div>
+                <!-- 排行榜 -->
+                <div class="header"><span>排行榜</span><a href="sub/ranking_list.html">查看更多</a>
+                </div>
+                <div class="ranking_recommend">
+                    <div class="ban">
+                        <a href="sub/ranking_list.html">
+                            <div class="header">飙升榜</div>
+                        </a>
+                        <ul>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>1</span><span>孤勇者</span></div>
+                                    <p> &nbsp;陈奕迅</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>2</span><span>美人鱼</span></div>
+                                    <p> &nbsp;林俊杰</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>3</span><span>荷塘月色</span></div>
+                                    <p> &nbsp;凤凰传奇</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>4</span><span>青花瓷</span></div>
+                                    <p> &nbsp;周杰伦</p>
+                                </li>
+                            </a>
+
+                        </ul>
+                    </div>
+                    <div class="ban">
+                        <a href="sub/ranking_list.html">
+                            <div class="header">新歌榜</div>
+                        </a>
+
+                        <ul>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>1</span><span>孤勇者</span></div>
+                                    <p> &nbsp;陈奕迅</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>2</span><span>美人鱼</span></div>
+                                    <p> &nbsp;林俊杰</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>3</span><span>荷塘月色</span></div>
+                                    <p> &nbsp;凤凰传奇</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>4</span><span>青花瓷</span></div>
+                                    <p> &nbsp;周杰伦</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="ban">
+                        <a href="sub/ranking_list.html">
+                            <div class="header">古风榜</div>
+                        </a>
+
+                        <ul>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>1</span><span>孤勇者</span></div>
+                                    <p> &nbsp;陈奕迅</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>2</span><span>美人鱼</span></div>
+                                    <p> &nbsp;林俊杰</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>3</span><span>荷塘月色</span></div>
+                                    <p> &nbsp;凤凰传奇</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>4</span><span>青花瓷</span></div>
+                                    <p> &nbsp;周杰伦</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="ban">
+                        <a href="sub/ranking_list.html">
+                            <div class="header">欧美榜</div>
+                        </a>
+
+                        <ul>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>1</span><span>孤勇者</span></div>
+                                    <p> &nbsp;陈奕迅</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>2</span><span>美人鱼</span></div>
+                                    <p> &nbsp;林俊杰</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>3</span><span>荷塘月色</span></div>
+                                    <p> &nbsp;凤凰传奇</p>
+                                </li>
+                            </a>
+                            <a href="sub/song.html" target="_blank">
+                                <li>
+                                    <div><span>4</span><span>青花瓷</span></div>
+                                    <p> &nbsp;周杰伦</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 标语 -->
+                <div class="slogan">
+                    <a href="index.html">
+                        <img src=" images/ad6.jpg" alt="ad">
+                    </a>
+                </div>
+                <!-- MV推荐 -->
+                <div class="header"><span>MV推荐</span><a href="sub/mv_list.html">查看更多</a>
+                </div>
+                <div class="mv_recommend">
+                    <div>
+                        <a href="sub/video_library_details.html" target="_blank"><img src="./images/gqfm1.jpg"
+                                alt="MV推荐"></a>
+                        <a href="sub/singer.html" target="_blank">
+                            <p>周杰伦</p>
+                        </a>
+                        <a href="sub/video_library_details.html" target="_blank">
+                            <p>青花瓷</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/video_library_details.html" target="_blank"><img src="./images/gqfm2.jpg"
+                                alt="MV推荐"></a>
+                        <a href="sub/singer.html" target="_blank">
+                            <p>周杰伦</p>
+                        </a>
+                        <a href="sub/video_library_details.html" target="_blank">
+                            <p>青花瓷</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/video_library_details.html" target="_blank"><img src="./images/gqfm3.jpg"
+                                alt="MV推荐"></a>
+                        <a href="sub/singer.html" target="_blank">
+                            <p>周杰伦</p>
+                        </a>
+                        <a href="sub/video_library_details.html" target="_blank">
+                            <p>青花瓷</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/video_library_details.html" target="_blank"><img src="./images/gqfm4.jpg"
+                                alt="MV推荐"></a>
+                        <a href="sub/singer.html" target="_blank">
+                            <p>周杰伦</p>
+                        </a>
+                        <a href="sub/video_library_details.html" target="_blank">
+                            <p>青花瓷</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/video_library_details.html" target="_blank"><img src="./images/gqfm5.jpg"
+                                alt="MV推荐"></a>
+                        <a href="sub/singer.html" target="_blank">
+                            <p>周杰伦</p>
+                        </a>
+                        <a href="sub/video_library_details.html" target="_blank">
+                            <p>青花瓷</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                    <div>
+                        <a href="sub/video_library_details.html" target="_blank"><img src="./images/gqfm6.jpg"
+                                alt="MV推荐"></a>
+                        <a href="sub/singer.html" target="_blank">
+                            <p>周杰伦</p>
+                        </a>
+                        <a href="sub/video_library_details.html" target="_blank">
+                            <p>青花瓷</p>
+                        </a>
+                        <span>播放量：9000W</span>
+                    </div>
+                </div>
+                <!-- 标语 -->
+                <div class="slogan">
+                    <a href="index.html">
+                        <img src=" images/ad9.jpg" alt="ad">
+                    </a>
+                </div>
+            </div>
+            <!-- 右侧栏 -->
+            <div class="right">
+                <!-- 热门歌曲 -->
+                <div class="header">热门歌曲<a href="sub/sort_list.html">查看更多</a>
+                </div>
+                <div class="popular_songs">
+                    <ul>
+                        <li>
+                            <a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm7.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+                            </a>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm8.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+                            </a><a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm1.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+                            </a><a href=" sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm10.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+
+                            </a><a href="sub/song.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm11.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+
+                            </a><a href="sub/song.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm1.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+
+                            </a><a href="sub/song.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm2.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+
+                            </a><a href="sub/song.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                        <li><a href="sub/song.html" target="_blank">
+                                <img src="./images/gqfm3.jpg" alt="歌曲推荐">
+                                <span>青花瓷</span>
+
+                            </a><a href="sub/song.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- 歌手推荐  -->
+                <div class="header">歌手推荐<a href="sub/singer_list.html">查看更多</a>
+                </div>
+                <div class="singers_comment">
+                    <ul>
+                        <li>
+                            <img src="./images/gs1.jpg" alt="歌手">
+                            <div>
+                                <a href="sub/singer.html" target="_blank">周杰伦</a>
+                                <p>啦啦啦啦</p>
+                            </div>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+                        <li>
+                            <img src="./images/gs2.jpg" alt="歌手">
+                            <div>
+                                <a href="sub/singer.html" target="_blank">周杰伦</a>
+                                <p>啦啦啦啦</p>
+                            </div>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+                        <li>
+                            <img src="./images/gs3.jpg" alt="歌手">
+                            <div>
+                                <a href="sub/singer.html" target="_blank">周杰伦</a>
+                                <p>啦啦啦啦</p>
+                            </div>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+                        <li>
+                            <img src="./images/gs4.jpg" alt="歌手">
+                            <div>
+                                <a href="sub/singer.html" target="_blank">周杰伦</a>
+                                <p>啦啦啦啦</p>
+                            </div>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+                        <li>
+                            <img src="./images/gs5.jpg" alt="歌手">
+                            <div>
+                                <a href="sub/singer.html" target="_blank">周杰伦</a>
+                                <p>啦啦啦啦</p>
+                            </div>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+                        <li>
+                            <img src="./images/gs6.jpg" alt="歌手">
+                            <div>
+                                <a href="sub/singer.html" target="_blank">周杰伦</a>
+                                <p>啦啦啦啦</p>
+                            </div>
+                            <a href="sub/singer.html" target="_blank" class="fa fa-chevron-right"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ad">
+                    <a href="index.html">
+                        <img src=" images/ad4.jpg" alt="ad">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <a href="https://beian.miit.gov.cn" target="_blank">
+            <p>豫ICP备2021020486号-1</p>
+        </a>
+        <p>本网站仅供演示所用，无任何商业用途</p>
+        <p>此演示网页中，图片与名称可能不对应，敬请谅解</p>
+    </footer>
+    <div id="bg" class="login-bg"></div>
+</body>
+</html>

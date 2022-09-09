@@ -1,0 +1,345 @@
+/* 首页中间主体部分，推荐 */
+.main_box .tab1{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+/* 左侧栏 */
+.tab1 .left{
+    flex: 7;
+}
+
+/* 右侧栏 */
+.tab1 .right{
+    flex: 3;
+    border-left: .0125rem solid #C20C0C;
+}
+
+/* 标语 */
+.tab1 .slogan{
+    width: 98%;
+    height: 1.25rem;
+    margin: .375rem auto .25rem auto;
+    border-radius: .125rem;
+    overflow: hidden;
+}
+.tab1 .slogan img{
+    width: 100%;
+    height: 100%;
+}
+/* 标题 */
+
+.tab1 .left .header{
+    width: 90%;
+    border-bottom: 1px solid #C20C0C;
+    margin-top: .5rem;
+    margin-left: .25rem;
+}
+.tab1 .left>.header span{
+    font-size: .3rem;
+    cursor: pointer;
+    color: #000;
+    font-weight: bolder;
+
+}
+
+.tab1 .left>.header a{
+    float: right;
+    font-size: .15rem;
+    padding-right: .125rem;
+}
+/* 歌单推荐 */
+.tab1 .left .song_list_recommend{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .25rem;
+    margin-left: .25rem;
+
+}
+
+.tab1 .left .song_list_recommend div{
+    flex: 25%;
+    padding: .0625rem;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+
+.tab1 .left .song_list_recommend div:hover{
+    background-color: #fbfbfd;
+}
+
+
+.tab1 .left .song_list_recommend div img{
+    width: 100%;
+    height: 2rem;
+    border-radius: .05rem;
+}
+.tab1 .left .song_list_recommend div p{
+    font-weight: bold;
+}
+.tab1 .left .song_list_recommend div span{
+    font-size: .15rem;
+}
+
+/* 排行榜 */
+
+.tab1 .left .ranking_recommend{
+    width: 90%;
+    display: flex;
+    margin-top: .25rem;
+    margin-left: .25rem;
+}
+
+.tab1 .left .ranking_recommend .ban{
+    flex: 25%;
+    padding: .0625rem;
+    border-radius: .1rem;
+    overflow: hidden;
+    background-color: white;
+    margin-left: .0625rem;
+    text-align: center;
+}
+.tab1 .left .ranking_recommend .ban a{
+    display: block;
+}
+.tab1 .left .ranking_recommend .ban .header{
+    width: 2rem;
+    height: .625rem;
+    font-size: .3rem;
+    text-align: center!important;
+    margin: auto;
+    margin-top: .375rem;
+}
+
+.tab1 .left .ranking_recommend .ban ul{
+    width: 100%;
+    text-align: center;
+    margin-top: .25rem;
+    padding-bottom: .625rem;
+}
+.tab1 .left .ranking_recommend .ban ul li{
+    width: 2rem;
+    height: auto;
+    margin: .125rem auto .0625rem auto;
+    cursor: pointer;
+    border-radius: .1rem;
+    position: relative;
+}
+.tab1 .left .ranking_recommend .ban ul li:hover{
+    background-color: #F7E8E9;
+}
+.tab1 .left .ranking_recommend .ban ul li>div span{
+    padding-left: .0625rem;
+    padding-right: .0625rem;
+}
+
+
+.tab1 .left .ranking_recommend .ban ul li>div span:first-child{
+    position: absolute;
+    left: .125rem;
+    top:.125rem;
+    padding-left: .0625rem;
+    padding-right: .0625rem;
+    border: .0125rem solid #F7E8E9;
+    border-radius: 50%;
+}
+
+.tab1 .left .ranking_recommend .ban ul li p{
+    margin-top: .0625rem;
+    font-weight: normal;
+}
+
+/* mv推荐 */
+
+.tab1 .left .mv_recommend {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .25rem;
+    margin-left: .25rem;
+}
+
+
+.tab1 .left .mv_recommend div{
+    flex: 33.3%;
+    padding: .0625rem;
+    margin: .1875rem auto .1875rem auto;
+}
+
+.tab1 .left .mv_recommend div:hover{
+    background-color: #fbfbfd;
+    
+}
+.tab1 .left .mv_recommend div img{
+    width: 100%;
+    height: 1.75rem;
+}
+
+.tab1 .left .mv_recommend div p{
+    padding-left: .0625rem;
+    margin-top: .0625rem;
+    margin-bottom: .025rem;
+}
+
+.tab1 .left .mv_recommend div span{
+    padding-left: .0625rem;
+}
+
+/* 右侧栏 */
+.tab1  .right{
+    height: auto;
+}
+/* 热门歌曲 */
+.tab1 .right >  .header{
+    width: 98%;
+    height: .5rem;
+    line-height: .5rem;
+    margin-top: .375rem;
+    margin-left: .125rem;
+    border-bottom: .0125rem solid #C20C0C;
+    font-size: .25rem;
+    color: #000;
+    font-weight: bolder;
+}
+
+.tab1 .right >  .header a{
+    float: right;
+    padding-right: .1875rem;
+    font-size: .15rem;
+    font-weight: normal;
+}
+.tab1 .right .popular_songs{
+    width: 100%;
+}
+
+.tab1 .right .popular_songs ul {
+    width: 98%;
+    margin-left: .125rem;
+    margin-top: .5rem;
+
+}
+
+.tab1 .right .popular_songs ul  li{
+    width: 96%;
+    height: 1rem;
+    line-height: 1rem;
+    margin-top: .125rem;
+    margin-bottom: .125rem;
+    border-radius: .05rem;
+    position: relative;
+}
+
+.tab1 .right .popular_songs ul  li:hover{
+    background-color: #fbfbfd;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+
+
+
+.tab1 .right .popular_songs ul img{
+    width: .625rem;
+    height: .625rem;
+    margin-left: .25rem;
+}
+
+.tab1 .right .popular_songs ul span{
+    margin-left: .5rem;
+    color: #000;
+}
+.tab1 .right .popular_songs ul  li .fa{
+    position: absolute;
+    bottom: .3125rem;
+    right: .25rem;
+    
+}
+/* 歌手推荐 */
+
+.tab1 .right .singers_comment{
+    width: 100%;
+}
+
+.tab1 .right .singers_comment ul{
+    width: 98%;
+    height: 7.5rem;
+    margin-left: .125rem;
+    margin-top: .5rem;
+}
+.tab1 .right .singers_comment ul li{
+    width: 96%;
+    height: 1rem;
+    margin-top: .125rem;
+    margin-bottom: .125rem;
+    border-radius: .05rem;
+    position: relative;
+}
+.tab1 .right .singers_comment ul li>a{
+    position: absolute;
+    bottom: .3125rem;
+    right: .25rem;
+}
+
+
+.tab1 .right .singers_comment ul li img {
+    width: .75rem;
+    height: .75rem;
+    margin-top: .125rem;
+    margin-bottom: .125rem;
+    margin-left: .125rem;
+}
+
+.tab1 .right .singers_comment ul li:hover{
+    background-color: #fbfbfd;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.tab1 .right .singers_comment ul li div{
+    display: inline-block;
+    height: auto;
+    position: absolute;
+    top:.125rem;
+    left: 1.5rem;
+    font-size: .225rem;
+}
+.tab1 .right .singers_comment ul li div a{
+    display: block;
+    margin-bottom: .0625rem;
+    color: #000;
+}
+
+.tab1 .right .singers_comment ul li div a:hover{
+    color: #C20C0C;
+}
+
+.tab1 .right .ad{
+    width: 98%;
+    height: 1.25rem;
+    margin-top: .5rem;
+    margin-left: .0625rem;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+
+.tab1 .right .ad img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

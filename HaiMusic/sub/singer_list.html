@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/log.ico" media="screen" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嗨.音乐</title>
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/singer_list.css">
+    <script src="../js/flexible.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+
+</head>
+
+<body>
+
+    <!--网页logo 介绍 首行-->
+    <div class="head">
+        <div class="head_nav">
+            <a href="../index.html">发现音乐</a>
+            <a href="#">我的音乐</a>
+            <a href="shop.html" target="_blank">商城</a>
+        </div>
+        <!--导航部分-->
+        <div class="nav" id="nav">
+            <ul>
+                <a href="../index.html">
+                    <li>推荐</li>
+                </a>
+                <a href="ranking_list.html">
+                    <li>排行榜</li>
+                </a>
+                <a href="sort_list.html">
+                    <li>分类歌单</li>
+                </a>
+                <a href="mv_list.html">
+                    <li>MV</li>
+                </a>
+                <a href="singer_list.html" style="color: #C20C0C;">
+                    <li>歌手</li>
+                </a>
+                <a href="about.html">
+                    <li>关于作者</li>
+                </a>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <form action="" name="search1" class="search1">
+            <input type="search" name="search" placeholder="音乐/用户/MV"><button class="fa fa-search"></button>
+        </form>
+        <div class="creator"><a href="#">创作者中心</a></div>
+        <div class="user_logon"><a href="javascript:void(0);" id="link">登录</a></div>
+    </div>
+    <!--登录模态框-->
+    <div class="login" id="login">
+        <div id="title" class="login-title">登&nbsp;录
+            <span><a id="closeBtn" href="javascript:void(0);" class="close-login fa fa-close"> </a></span>
+        </div>
+        <div class="sm_header">扫 码 登 录</div>
+        <div class="left">
+            <img src="../images/login.png" alt="登录二维码">
+            <div class="shuffle" style="display: none;"><a href="javascript:void(0)" class="fa fa-refresh"></a></div>
+        </div>
+
+        <div class="login-input-content">
+            <form action="">
+                <div class="login-input">
+                    <label for="info[username]">用户名：</label>
+                    <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="input">
+                </div>
+                <div class="login-input">
+                    <label for="info[password]">登录密码：</label>
+                    <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="input">
+                </div>
+            </form>
+
+        </div>
+        <div id="loginBtn" class="login-button">
+            <a href="javascript:void(0);" id="login-button-sumbit" class="fa fa-check"></a>
+        </div>
+        <div class="register">
+            <a href="./sub/register.html" target="_blank">还未注册，立即去注册 &gt;</a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!--中部主体部分-->
+    <div class="main_box">
+        <div class="box">
+            <div class="header">
+                <div>
+                    <a href="#">全部</a>
+                    <a href="#">A</a>
+                    <a href="#">B</a>
+                    <a href="#">C</a>
+                    <a href="#">D</a>
+                    <a href="#">F</a>
+                    <a href="#">G</a>
+                    <a href="#">H</a>
+                    <a href="#">I</a>
+                    <a href="#">J</a>
+                    <a href="#">K</a>
+                    <a href="#">L</a>
+                    <a href="#">M</a>
+                    <a href="#">N</a>
+                    <a href="#">O</a>
+                    <a href="#">P</a>
+                    <a href="#">Q</a>
+                    <a href="#">R</a>
+                    <a href="#">S</a>
+                    <a href="#">T</a>
+                    <a href="#">U</a>
+                    <a href="#">V</a>
+                    <a href="#">W</a>
+                    <a href="#">X</a>
+                    <a href="#">Y</a>
+                    <a href="#">Z</a>
+                    <a href="#">#</a>
+                </div>
+                <div>
+                    <a href="#">全部</a><a href="#">内地</a><a href="#">港台</a><a href="#">欧美</a><a href="#">非洲</a><a
+                        href="#">俄罗斯</a>
+                </div>
+                <div>
+                    <a href="#">全部</a><a href="#">男</a><a href="#">女</a><a href="#">组合</a>
+                </div>
+                <div>
+                    <a href="#">全部</a><a href="#">流行</a><a href="#">说唱</a><a href="#">国风</a><a href="#">摇滚</a><a
+                        href="#">电子</a><a href="#">民谣</a><a href="#">民族乐</a><a href="#">轻音乐</a><a href="#">乡村</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="context">
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs1.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs2.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs3.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs4.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs5.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs6.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs7.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs8.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs9.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs10.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs1.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs2.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs4.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs5.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs3.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs7.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs8.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs1.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs9.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs10.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs5.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs7.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs3.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs7.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs8.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs10.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs1.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs2.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs4.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs5.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs3.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs10.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs9.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs8.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs7.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs1.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs5.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs10.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs4.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+                <a href="singer.html" target="_blank">
+                    <div>
+                        <img src="../images/gs7.jpg" alt="歌手">
+                        <a href="singer.html" target="_blank">周杰伦</a>
+                    </div>
+                </a>
+            </div>
+            <div class="forward">
+                <button class="fa fa-angle-down"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clear"></div>
+    <footer>
+        <a href="https://beian.miit.gov.cn" target="_blank">
+            <p>豫ICP备2021020486号-1</p>
+        </a>
+        <p>本网站仅供演示所用，无任何商业用途</p>
+        <p>此演示网页中，图片与名称可能不对应，敬请谅解</p>
+    </footer>
+    <div id="bg" class="login-bg"></div>
+</body>
+
+</html>

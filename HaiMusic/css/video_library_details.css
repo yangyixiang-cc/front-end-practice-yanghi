@@ -1,0 +1,492 @@
+
+.main {
+    display: flex;
+    width: 19.5rem;
+    height: auto;
+    margin: auto;
+    background-color: #F7E8E9;
+}
+
+.main .left {
+    flex: 7;
+    height: auto;
+    background-color: #F7E8E9;
+}
+
+.main .right {
+    flex: 3;
+    width: 0;
+    height: auto;
+    background-color: #F7E8E9;
+    overflow: hidden;
+}
+
+.left .top {
+    width: 100%;
+    height: 9.5rem;
+}
+
+.main .left .top>.header{
+    width: 98%;
+    height: 1.5rem;
+    margin-top:.25rem;
+    background-color: white;
+    padding: .125rem;
+    padding-left: .25rem;
+    border-radius: .05rem;
+    color: #C20C0C;
+    border-bottom: 1px solid #C20C0C;
+}
+
+.main .left .top>.header h2{
+    margin-top: .125rem;
+    margin-bottom: .375rem;
+    font-size: .4rem;
+}
+.main .left .top>.header p{
+    font-size: .225rem;
+}
+
+.main .left .top .collect {
+    width: 100%;
+    margin: auto;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: white;
+    margin-top: .25rem;
+    border-radius: .05rem;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.main .left .top .collect a{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    margin-right: .125rem;
+    text-align: center;
+    font-size: .3rem;
+}
+
+
+
+.top_video {
+    width: 100%;
+    height: auto;
+    background-color: #F7E8E9;
+}
+
+.top_video h2 {
+    color: #C20C0C;
+    text-align: left;
+    font-size: .3rem;
+    font-weight: bold;
+    margin-top: .75rem;
+    margin-left: .5rem;
+}
+
+
+/* 视频部分 end */
+
+.video {
+    width: 100%;
+    height: 9rem;
+    background-color: #000;
+    margin-top: .5rem;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    outline: 0;
+}
+
+
+/* 发送弹幕部分 start */
+
+.bullet_chat {
+    display: flex;
+    width: 100%;
+    height: .625rem;
+}
+
+.bullet_chat input {
+    flex: 8;
+    width: 100%;
+    padding: .125rem;
+    border-bottom: .0125rem solid #C20C0C;
+    margin-left: .0125rem;
+}
+
+.bullet_chat button {
+    flex: 2;
+    width: 100%;
+    color: #000;
+    background: linear-gradient(45deg, #e35555 70%, #EF384E);
+    margin-right: .0125rem;
+}
+
+.bullet_chat button:hover {
+    background: linear-gradient(45deg, #e35555 70%, #c92e40);
+}
+
+
+/* 按钮点击后的样式 */
+
+.bullet_chat .btn_active {
+    color: #bbb;
+    background: #e7e7e7;
+    /* 鼠标变禁止点击状态 */
+    cursor: not-allowed;
+}
+
+
+/*收藏*/
+
+.top .collect {
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+}
+
+
+/*评论*/
+
+.bot_comments {
+    width: 100%;
+    padding: auto;
+    margin-top: 3.75rem;
+}
+
+.bot_comments .song_header {
+    width: 98%;
+    height: .75rem;
+    line-height: .75rem;
+    margin-top: .45rem;
+    margin-left: .125rem;
+    padding-left: .125rem;
+    border-bottom: .025rem solid #C20C0C;
+    font-size: .3rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+.bot_comments .send_message {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: .25rem;
+    position: relative;
+}
+
+.bot_comments .send_message img {
+    position: absolute;
+    top: .25rem;
+    left: .5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: .125rem;
+}
+
+.bot_comments .send_message .text {
+    position: absolute;
+    top: .025rem;
+    left: 2rem;
+    width: 11.25rem;
+    height: 1.5rem;
+    margin-top: .25rem;
+    background-color: beige;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+
+.bot_comments .send_message .text textarea {
+    width: 102%;
+    height: 102%;
+    text-indent: 1em;
+    font-size: .25rem;
+}
+
+.bot_comments .send_message .btn {
+    position: absolute;
+    top: 2rem;
+    right: .45rem;
+    width: 1.25rem;
+    height: .5rem;
+    border-radius: .1rem;
+    background-color: white;
+    transition: all 0.3s ease-in;
+}
+
+.bot_comments .send_message .btn:hover {
+    background-color: #e35555;
+}
+
+.bot_comments .comments {
+    width: 100%;
+    padding-top: .5rem;
+    padding-left: .375rem;
+}
+
+.bot_comments .comments .header {
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.bot_comments .comments .header span {
+    float: right;
+    font-size: .2rem;
+    margin-right: .125rem;
+}
+
+.bot_comments .comments .header span a {
+    display: inline-block;
+    margin-left: .0625rem;
+}
+
+.bot_comments .comments .header span a:first-child {
+    color: #C20C0C;
+}
+
+.bot_comments .comments table {
+    width: 100%;
+    height: auto;
+}
+
+.bot_comments .comments table tr {
+    display: flex;
+    width: 100%;
+    line-height: .2875rem;
+}
+
+.bot_comments .comments table td {
+    position: relative;
+    text-align: left;
+    height: 2rem;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.bot_comments .comments table td:first-child {
+    flex: 1;
+    padding-top: .3125rem;
+    padding-left: .125rem;
+}
+
+.bot_comments .comments table td:last-child {
+    flex: 9;
+}
+
+.bot_comments .comments table td>a{
+    color: #000;
+}
+
+.bot_comments .comments table td>a:hover{
+    color: #C20C0C;
+}
+
+
+.bot_comments .comments table td:last-child a {
+    display: inline-block;
+    margin-top: .3125rem;
+    font-weight: bold;
+}
+
+.bot_comments .comments table td:last-child a:hover {
+    text-decoration: underline;
+}
+
+.bot_comments .comments table td:last-child div {
+    margin-top: .4rem;
+}
+
+.bot_comments .comments table td:last-child .footer {
+    position: absolute;
+    right: 0;
+    bottom: .125rem;
+    display: inline;
+    text-align: right;
+    font-size: .2rem;
+}
+
+.bot_comments .comments table td:last-child .footer a {
+    text-decoration: none;
+}
+
+.bot_comments .comments table img {
+    width: 1rem;
+    height: 1rem;
+    border-radius: .125rem;
+}
+
+.bot_comments .comments table h4 {
+    font-weight: bolder;
+    text-indent: 1em;
+}
+
+.bot_comments .comments .paging_bar {
+    width: 100%;
+    height: 1.25rem;
+    margin-top: .375rem;
+    text-align: center;
+}
+
+.bot_comments .comments .paging_bar a {
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin: auto .0625rem auto .0625rem;
+}
+
+.bot_comments .comments .paging_bar .btn {
+    margin-top: .025rem;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    background-color: rgb(230, 230, 230);
+}
+
+.bot_comments .comments .paging_bar .btn:hover {
+    background-color: rgb(200, 199, 199);
+}
+
+.bot_comments .comments .paging_bar .choose {
+    background-color: #e35555;
+}
+
+
+
+
+/*右栏*/
+
+.main .right .information_bar {
+    width: 100%;
+    margin: auto;
+    margin-top: .25rem;
+    height: 1.75rem;
+    background-color: white;
+    padding: .0625rem;
+    border-radius: .05rem;
+}
+
+.main .right .information_bar .top a:last-child {
+    font-size: .2rem;
+    color: #000;
+}
+
+.main .right .information_bar .top img {
+    width: .75rem;
+    height: .75rem;
+    margin-top: .125rem;
+    margin-left: .1875rem;
+    border-radius: 50%;
+}
+
+.main .right .information_bar .top button {
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin-left: 1.875rem;
+    border-radius: .1rem;
+    background-color: #e35555;
+}
+
+.main .right .information_bar .top button:hover {
+    background-color: #d11212;
+}
+
+.main .right .information_bar .bot {
+    font-size: .2rem;
+    padding-top: .125rem;
+    padding-left: .25rem;
+}
+
+.main .right .information_bar .bot p:first-child {
+    font-weight: 600;
+}
+
+.main .right .information_bar .bot p:last-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*视频推荐*/
+
+.main .right .recommendation_list{
+    width: 98%;
+    height: auto;
+    margin-top: .125rem;
+    margin: auto;
+}
+
+.main .right .recommendation_list .relative{
+    width: 98%;
+    margin: auto;
+    height: .75rem;
+    line-height: .75rem;
+    font-size: .25rem;
+    font-weight: bold;
+    color: #000;
+    border-bottom: .0125rem solid #C20C0C;
+}
+
+.main .right .recommendation_list ul{
+    width: 100%;
+    margin-top: .125rem;
+}
+
+.main .right .recommendation_list ul li{
+    display: flex;
+    width: 100%;
+    height: 1.5rem;
+    padding: .0625rem;
+    margin-bottom: .125rem;
+    background-color: white;
+    border-radius: .05rem;
+    overflow: hidden;
+}
+
+.main .right .recommendation_list ul li .left{
+    flex: 4;
+}
+
+.main .right .recommendation_list ul li .left a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: .05rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+}
+
+.main .right .recommendation_list ul li .left a:hover{
+    opacity: 0.8;
+}
+.main .right .recommendation_list ul li .left a img{
+    width: 100%;
+    height: 100%;
+}
+.main .right .recommendation_list ul li .right{
+    padding-top: .0625rem;
+    padding-left: .125rem;
+    flex: 6;
+    background-color: white;
+}
+
+.main .right .recommendation_list ul li .right img{
+    width: .5rem;
+    height: .5rem;
+    margin-right: .15rem;
+}
+
+.main .right .recommendation_list ul li .right p{
+    padding-top: .375rem;
+}
+
+.main .right .recommendation_list ul li .right p:hover{
+    color: #C20C0C;
+    cursor: pointer;
+}

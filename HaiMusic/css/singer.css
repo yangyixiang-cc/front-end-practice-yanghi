@@ -1,0 +1,333 @@
+.main_box .box {
+    width: 98%;
+    height: auto;
+    background-color: #F7E8E9;
+    margin: auto;
+    padding-top: .25rem;
+    padding-bottom: .375rem;
+}
+
+.main_box .box .top{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: .05rem;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: .375rem;
+}
+
+
+.main_box .box .top >.left{
+    flex: 2;
+    padding-left: 1rem;
+}
+
+.main_box .box .top >.left img{
+    width:3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+}
+
+
+.main_box .box .top >.right{
+    flex: 8;
+    padding-left: .625rem;
+}
+
+.main_box .box .top >.right div{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .2rem;
+}
+
+.main_box .box .top >.right .singer_name{
+    font-size: .45rem;
+    color: #000;
+    font-weight: bold;
+    margin-top: .625rem;
+}
+
+.main_box .box .top >.right .tab a{
+    display: inline-block;
+    width: 1.25rem;
+    text-align: center;
+    font-size: .25rem;
+}
+
+.main_box .box .top >.right .tab a:first-child{
+    text-align: left;
+}
+
+
+.main_box .box .top >.right .bot a{
+    display: inline-block;
+    height: .625rem;
+    line-height: .625rem;
+    padding-left: .1875rem;
+    padding-right: .1875rem;
+    background-color: #F7E8E9;
+    font-size: .2rem;
+    border-radius: .05rem;
+}
+.main_box .box .top >.right .bot a:hover{
+    color: #000;
+    background-color: #e35555;
+}
+
+
+
+.main_box .box .middle{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.main_box .box .middle .left{
+    flex: 7;
+}
+
+.main_box .box .middle .left .header {
+    width: 100%;
+    height: .75rem;
+    color: #000;
+}
+
+.main_box .box .middle .left .header span{
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+.main_box .box .middle .left .header button{
+    float: right;
+    width: 1.25rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin-left: .125rem;
+    border-radius: .05rem;
+    background-color: white;
+    transition: 0.5s ease-in;
+}
+
+.main_box .box .middle .left .header button:hover{
+    background-color: #fbfbfd;
+}
+
+
+
+.main_box .box .middle .left .ban{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: .05rem;
+    overflow: hidden;
+}
+
+.main_box .box .middle .left .ban ul {
+    width: 100%;
+}
+
+.main_box .box .middle .left .ban ul li{
+    display: flex;
+    width: 100%;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    margin-bottom: .125rem;   
+}
+
+
+
+.main_box .box .middle .left .ban ul li:nth-child(even){
+    background-color: #fbfbfd;
+}
+
+.main_box .box .middle .left .ban ul li:first-child{
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: .0125rem solid #C20C0C;
+    font-size: .25rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+.main_box .box .middle .left .ban ul li:nth-child(n+2):hover{
+    background-color: #F7E8E9;
+}
+
+.main_box .box .middle .left .ban ul li .num{
+    flex:1;
+    text-align: center;
+}
+
+
+.main_box .box .middle .left .ban ul li .song{
+    flex:6;
+}
+
+.main_box .box .middle .left .ban ul li .song img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .25rem;
+}
+
+.main_box .box .middle .left .ban ul li .song .sing_name{
+    margin-right: .125rem;
+}
+
+.main_box .box .middle .left .ban ul li .song>a{
+    padding-left: .0625rem;
+    padding-right: .0625rem;
+    color: #C20C0C;
+    font-size: .2rem;
+    margin-left: .125rem;
+}
+
+
+.main_box .box .middle .left .ban ul li .name{
+    flex:1;
+    text-align: center;
+}
+
+
+.main_box .box .middle .left .ban ul li .time{
+    flex: 1;
+    text-align: center;
+}
+
+.main_box .box .middle .left .ban .paging_bar{
+    width: 98%;
+    height: 1.25rem;
+    margin: auto;
+    margin-top: .375rem;
+    text-align: center;
+}
+.main_box .box .middle .left .ban .paging_bar a{
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin: auto .0625rem auto .0625rem;
+}
+.main_box .box .middle .left .ban .paging_bar .btn{
+    margin-top: .025rem;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    background-color: rgb(230, 230, 230);
+}
+.main_box .box .middle .left .ban .paging_bar .btn:hover{
+    background-color: rgb(200, 199, 199);
+}
+.main_box .box .middle .left .ban .paging_bar .choose{
+    background-color: #e35555;
+}
+
+
+
+.main_box .box .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: .05rem;
+    padding-top: .25rem;
+}
+
+.main_box .box .bottom>div{
+    flex: 20%;
+    margin: .125rem;
+}
+
+.main_box .box .bottom>div img{
+    width: 100%;
+    height: 2rem;
+    border-radius: .05rem;
+}
+
+.main_box .box .bottom>div .bot{
+    padding-top: .125rem;
+    padding-left: .125rem;
+}
+
+.main_box .box .bottom>div .bot .title{
+    color: #000;
+    font-weight: bold;
+}
+
+.main_box .box > .header{
+    width: 100%;
+    height: .625rem;
+    line-height: .625rem;
+    margin-top: .25rem;
+}
+
+.main_box .box > .header span{
+    color: #000;
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+.main_box .box > .header a{
+    float: right;
+    padding-right: .125rem;
+}
+
+.main_box .box .middle .right{
+    flex: 3;
+    background-color: white;
+    border-radius: .05rem;
+    margin-left: .25rem; 
+    padding-top: .25rem;   
+}
+
+.main_box .box .middle .right>.header{
+    width: 97%;
+    margin: auto;
+    height: .5rem;
+    line-height: .5rem;
+    border-bottom: .0125rem solid #C20C0C;
+    font-size: .225rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.main_box .box .middle .right .silmar{
+    width: 97%;
+    margin: auto;
+    margin-top: .25rem;
+}
+
+.main_box .box .middle .right .silmar div{
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    margin-bottom: .25rem;
+    border-radius: .05rem;
+}
+
+.main_box .box .middle .right .silmar div:hover{
+    background-color: #F7E8E9;
+    border-bottom: .0125rem solid #C20C0C ;
+}
+
+.main_box .box .middle .right .silmar div img{
+    width: 1rem;
+    height: 1rem;
+    margin-left: .125rem;
+    margin-right: .125rem;
+    border-radius: .05rem;
+}
+
+.main_box .box .middle .right .ad{
+    width: 97%;
+    margin: auto;
+}
+
+.main_box .box .middle .right .ad img{
+    width: 100%;
+    height: 1.25rem;
+    margin-top: .375rem;
+    border-radius: .05rem;
+}

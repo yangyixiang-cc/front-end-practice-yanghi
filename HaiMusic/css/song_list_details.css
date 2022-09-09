@@ -1,0 +1,502 @@
+.song_list {
+    width: 19.5rem;
+    background-color: #F7E8E9;
+    margin: auto;
+    padding-top: .25rem;
+}
+.song_list .top{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    background-color: white;
+    border-radius: .05rem;
+}
+.song_list .top .img {
+    flex: 3;
+    width: 2.5rem;
+    height: 3.75rem;
+    margin: .25rem;
+}
+
+.song_list .top .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: .05rem;
+}
+
+.song_list .top .introduce {
+    flex: 7;
+    width: 100%;
+    height: 7.5rem;
+    padding-bottom: .125rem;
+    padding-left: .25rem;
+}
+.song_list .top .introduce p{
+    margin-top: .25rem;
+    font-size: .225rem;
+}
+.song_list .top .introduce > h1{
+    font-size: .4rem;
+    margin-top: .125rem;
+    color: #000;
+}
+.song_list .top .introduce .gs {
+    height: .3rem;
+    line-height: .3rem;
+    margin-top: .375rem;
+    margin-bottom: .375rem;
+}
+
+
+
+.song_list .top .introduce .gs span {
+    margin-left: .5rem;
+}
+
+
+
+.song_list .top .introduce .gs img {
+    width: .375rem;
+    height: .375rem;
+    margin-right: .1875rem;
+}
+
+.song_list .top .introduce .gs a{
+    padding-left: .125rem;
+    padding-right: .125rem;
+    font-weight: bolder;
+}
+
+.song_list .top .introduce p{
+    height: 2.5rem;
+    overflow: auto;
+    border-left: .05rem solid #F7E8E9;
+    padding-left: .25rem;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+
+.song_list .top .introduce p::-webkit-scrollbar {
+    width: .05rem;     
+    height: .05rem;
+    scrollbar-arrow-color:red;
+}
+.song_list .top .introduce p::-webkit-scrollbar-thumb {
+    border-radius: .0625rem;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    scrollbar-arrow-color:red;
+}
+.song_list .top .introduce p::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 .0625rem rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: #F7E8E9;
+}
+
+.song_list .top .introduce .imgblog {
+    height: .5rem;
+    line-height: .5rem;
+    margin-top: 1.25rem;
+}
+.song_list .top .introduce .imgblog a{
+    display: inline-block;
+    width: 1.25rem;
+    height: .625rem;
+    line-height: .625rem;
+    text-align: center;
+    background-color: #F7E8E9;
+    font-size: .225rem;
+    margin-right: .0625rem;
+    border-radius: .05rem;
+}
+
+.song_list .top .introduce .imgblog a:first-child{
+    background-color: #e35555;
+}
+
+.song_list .top .introduce .imgblog a:hover{
+    color: #000;
+    background-color: #e35555;
+}
+
+
+.song_list .song_header{
+    width: 98%;
+    height: .75rem;
+    line-height: .75rem;
+    margin: auto;
+    margin-top: .45rem;
+    font-size: .3rem;
+    color: #000;
+    font-weight: bolder;
+}
+.song_list .bot {
+    display: flex;
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: .0625rem;
+}
+.song_list .bot .left{
+    flex: 8;
+}
+
+.song_list .bot .left>.song_header span{
+    color: #000;
+    font-size: .3rem;
+    font-weight: bolder;
+}
+
+
+.song_list .bot .left .ban{
+    width: 98%;
+    margin: auto;
+    background-color: white;
+    border-radius: .05rem;
+    overflow: hidden;
+}
+
+.song_list .bot .left .ban ul {
+    width: 100%;
+}
+
+.song_list .bot .left .ban ul li{
+    display: flex;
+    width: 100%;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    margin-bottom: .125rem;   
+}
+
+
+
+.song_list .bot .left .ban ul li:nth-child(even){
+    background-color: #fbfbfd;
+}
+
+.song_list .bot .left .ban ul li:first-child{
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: .0125rem solid #C20C0C;
+    font-size: .25rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+.song_list .bot .left .ban ul li:nth-child(n+2):hover{
+    background-color: #F7E8E9;
+}
+
+.song_list .bot .left .ban ul li .num{
+    flex:1;
+    text-align: center;
+}
+
+
+.song_list .bot .left .ban ul li .song{
+    flex: 6;
+}
+
+.song_list .bot .left .ban ul li .song img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .25rem;
+}
+
+.song_list .bot .left .ban ul li .song .sing_name{
+    margin-right: .125rem;
+}
+
+.song_list .bot .left .ban ul li .song>a{
+    padding-left: .0625rem;
+    padding-right: .0625rem;
+    color: #C20C0C;
+    font-size: .2rem;
+    margin-left:.3125rem;
+}
+
+
+.song_list .bot .left .ban ul li .name{
+    flex:1;
+    text-align: center;
+}
+
+
+.song_list .bot .left .ban ul li .time{
+    flex: 1;
+    text-align: center;
+}
+
+.song_list .bot .left .ban .paging_bar{
+    width: 98%;
+    height: 1.25rem;
+    margin: auto;
+    margin-top: .375rem;
+    text-align: center;
+}
+.song_list .bot .left .ban .paging_bar a{
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin: auto .0625rem auto .0625rem;
+}
+.song_list .bot .left .ban .paging_bar .btn{
+    margin-top: .025rem;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    background-color: rgb(230, 230, 230);
+}
+.song_list .bot .left .ban .paging_bar .btn:hover{
+    background-color: rgb(200, 199, 199);
+}
+.song_list .bot .left .ban .paging_bar .choose{
+    background-color: #e35555;
+}
+
+
+
+
+.song_list .bot .left .ad{
+    width: 98%;
+    margin: auto;
+    margin-top: .5rem;
+    height: 1.25rem;
+    border-radius: .125rem;
+    overflow: hidden;
+}
+
+.song_list .bot .left .ad img{
+    width: 100%;
+    height: 100%;
+}
+
+/*评论*/
+.song_list .bot .left .songs_comment {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.song_list .bot .left .songs_comment .song_header{
+    font-size: .3rem;
+    color: #000;
+    font-weight: bold;
+    border-bottom: .025rem solid #C20C0C;
+}
+
+.song_list .bot .left .songs_comment .send_message{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: .25rem;
+    position: relative;
+}
+.song_list .bot .left .songs_comment .send_message img{
+    position: absolute;
+    top:.25rem;
+    left: .625rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: .125rem;
+    overflow: hidden;
+}
+.song_list .bot .left .songs_comment .send_message .text{
+    position: absolute;
+    top: .0625rem;
+    left: 2.25rem;
+    width: 11.875rem;
+    height: 1.5rem;
+    margin-top: .25rem;
+    background-color: beige;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+.song_list .bot .left .songs_comment .send_message .text textarea{
+    width: 102%;
+    height: 102%;
+    text-indent: 1em;
+    font-size: .25rem;
+}
+.song_list .bot .left .songs_comment .send_message .btn{
+    position: absolute;
+    top:2rem;
+    right: .875rem;
+    width: 1.5rem;
+    height: .625rem;
+    border-radius: .1rem;
+    background-color: white;
+    transition: all 0.3s ease-in;
+}
+.song_list .bot .left .songs_comment .send_message .btn:hover{
+    background-color: #e35555;   
+}
+
+ .comments{
+    width: 98%;
+    margin: auto;
+    padding-top:.5rem;
+}
+ .comments .header{
+    width: 98%;
+    height: .5rem;
+    margin: auto;
+    line-height: .5rem;
+    border-bottom: .0125rem solid #C20C0C;
+    font-size: .225rem;
+    color: #000;
+}
+ .comments .header span{
+    float: right;
+    font-size: .2rem
+}
+ .comments .header span a{
+    display: inline-block;
+    margin-left: .0625rem;
+}
+ .comments .header span a:first-child{
+    color: #C20C0C;
+}
+ .comments table {
+    width: 98%;
+    height: auto;
+    margin: auto;
+}
+ .comments table tr {
+    display: flex;
+    width: 100%;
+}
+ .comments table td {
+    position: relative;
+    text-align: left;
+    height: 2rem;
+    border-bottom: .0125rem solid #C20C0C;
+}
+ .comments table td:first-child{
+    flex: 1;
+    padding-top: .3125rem;
+    padding-left: .125rem;
+}
+
+.comments table td:last-child{
+    flex: 9;
+}
+
+.comments table td>a{
+    color: #000;
+}
+
+.comments table td>a:hover{
+    color: #C20C0C;
+}
+.comments table td:last-child a{
+    display: inline-block;
+    margin-top: .3125rem;
+    font-weight: bold;
+}
+
+
+ .comments table td:last-child a:hover{
+    text-decoration: underline;
+}
+ .comments table td:last-child div{
+    margin-top: .4rem;
+}
+ .comments table td:last-child .footer{
+    position: absolute;
+    right: 0;
+    bottom: .125rem;
+    display: inline;
+    text-align: right;
+    font-size: .2rem;
+}
+ .comments table td:last-child .footer a{ 
+    text-decoration: none;
+}
+ .comments table img {
+    width: 1rem;
+    height: 1rem;
+    border-radius: .125rem;
+    overflow: hidden;
+}
+ .comments table h4 {
+    font-weight: bolder;
+    text-indent: 1em;
+}
+.song_list .bot .left .songs_comment  .comments .paging_bar{
+    width: 98%;
+    height: 1.25rem;
+    margin: auto;
+    margin-top: .375rem;
+    text-align: center;
+}
+.song_list .bot .left .songs_comment  .comments .paging_bar a{
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin: auto .0625rem auto .0625rem;
+}
+.song_list .bot .left .songs_comment  .comments .paging_bar .btn{
+    margin-top: .025rem;
+    width: 1rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .3rem;
+    background-color: rgb(230, 230, 230);
+}
+.song_list .bot .left .songs_comment  .comments .paging_bar .btn:hover{
+    background-color: rgb(200, 199, 199);
+}
+.song_list .bot .left .songs_comment  .comments .paging_bar .choose{
+    background-color: #e35555;
+}
+
+
+.song_list .bot .right{
+    flex: 2;
+    width: 98%;
+    margin: auto;
+    margin-top: 1.25rem;
+}
+
+.song_list .bot .right .header{
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    border-bottom: .0125rem solid #C20C0C;
+    font-size: .225rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.song_list .bot .right .box{
+    width: 100%;
+    margin-top: .25rem;
+}
+
+.song_list .bot .right .box div{
+    width: 100%;
+    margin-bottom: .25rem;
+    background-color: white;
+    padding: .0625rem;
+}
+
+.song_list .bot .right .box div a>img{
+    width: 100%;
+    height: 1.75rem;
+}
+
+.song_list .bot .right .box div>a{
+    color: #000;
+}
+
+.song_list .bot .right .box div>a:hover{
+    color: #C20C0C;
+}
+
+
+
+
